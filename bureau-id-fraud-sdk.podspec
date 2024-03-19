@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name             = 'bureau-id-fraud-sdk'
-  spec.version          = '1.0.1'
-  spec.homepage         = 'https://example.com/bureau-id-fraud-sdk'
+  spec.version          = '1.0.2'
+  spec.homepage         = 'https://github.com/Bureau-Inc/bureau-id-fraud-sdk'
   spec.authors          = {'Bureau-Inc' => 'techops@bureau.id'}
   spec.summary          = 'Device Fingerprinting helps you understand your user’s unique harware with their device data & processes them in backend to generate a fingerprint id.'
   spec.source           = { :git => 'https://github.com/Bureau-Inc/bureau-id-fraud-sdk.git', :tag => spec.version.to_s }

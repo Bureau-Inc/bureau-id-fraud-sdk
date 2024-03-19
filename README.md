@@ -78,6 +78,7 @@ func onFinished(data: [String : Any]?) { }
 
 To access insights from users and devices, including OTL, device fingerprint, and risk signals, integrating with Bureau's backend API is a must for both OTL and Device Intelligence. 
 
+[Device Intelligence API Document](https://docs.bureau.id/reference/device_intelligence).
 [Behavioural Biometrics API Documentation](https://docs.bureau.id/reference/behavioural_biometrics).
 
 #### API Requests
