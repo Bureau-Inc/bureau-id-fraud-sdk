@@ -102,7 +102,6 @@ extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UIGestureRecognizerDe
 }
 @available(iOS 13.0, *)
 extension bureau_id_fraud_sdk.UserBehaviourCapture : Foundation.URLSessionWebSocketDelegate {
-  @available(iOS 13.0, *)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)

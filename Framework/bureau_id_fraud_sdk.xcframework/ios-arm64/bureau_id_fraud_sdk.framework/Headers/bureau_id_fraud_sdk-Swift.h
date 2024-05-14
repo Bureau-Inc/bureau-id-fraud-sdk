@@ -352,7 +352,7 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface UserBehaviourCapture (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <NSURLSessionWebSocketDelegate>
-- (void)URLSession:(NSURLSession * _Nonnull)session webSocketTask:(NSURLSessionWebSocketTask * _Nonnull)webSocketTask didOpenWithProtocol:(NSString * _Nullable)protocol SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (void)URLSession:(NSURLSession * _Nonnull)session webSocketTask:(NSURLSessionWebSocketTask * _Nonnull)webSocketTask didOpenWithProtocol:(NSString * _Nullable)protocol;
 - (void)URLSession:(NSURLSession * _Nonnull)session webSocketTask:(NSURLSessionWebSocketTask * _Nonnull)webSocketTask didCloseWithCode:(NSURLSessionWebSocketCloseCode)closeCode reason:(NSData * _Nullable)reason;
 - (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
 @end

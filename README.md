@@ -90,7 +90,7 @@ curl --location --request POST 'https://api.sandbox.bureau.id/v1/suppliers/devic
 --header 'Authorization: Basic MzNiNxxxx2ItZGU2M==' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "sessionKey": "697bb2d6-1111-1111-1111-548d6a809360"
+    "sessionId": "697bb2d6-1111-1111-1111-548d6a809360"
 }'
 ```
 
@@ -100,6 +100,6 @@ curl --location --request POST 'https://api.bureau.id/v1/suppliers/device-finger
 --header 'Authorization: Basic MzNiNxxxx2ItZGU2M==' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "sessionKey": "697bb2d6-1111-1111-1111-548d6a809360"
+    "sessionId": "697bb2d6-1111-1111-1111-548d6a809360"
 }'
 ```
