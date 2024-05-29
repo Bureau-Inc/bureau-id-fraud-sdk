@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		F8BZZo3xlWoZ5wZqYqawxHUK994=
+		Ai+Sezmxll9XaVVdrtGt38wC7+U=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		0/aGV3wGAKWvNT9lXk/JObom4ko=
+		i90Iucek9S1CoUDZRieVLYPGKgU=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,15 +30,19 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0/aGV3wGAKWvNT9lXk/JObom4ko=
+		i90Iucek9S1CoUDZRieVLYPGKgU=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		oOSpn4d5YmastuPd7KRF5N2fU9g=
+		3HYD8oi7bflhYkZgHd7CcrCKtfQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		3goDnNgQ/Zloy/FKN27hChYSN8E=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1P2fGR7sR7KjfFCHZhRbKNMwHBE=
 		</data>
 		<key>Sentry.bundle/Info.plist</key>
 		<data>
@@ -77,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIBf2efWO24+ZuUudV4OF9Z3K7o57GLY2AmxM8E7m6I=
+			IeyxiIf+WdGmYhmfzAembvkwHY60uJwJc19kj5x2JDE=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYj+J7VQp/3TeytXjj9+4HlkegxUWR42li9M0P7EIIY=
+			OyW4wVK6KeywkSlESNshwErvJ9ztfNFcLzj8YdmIpjA=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -98,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYj+J7VQp/3TeytXjj9+4HlkegxUWR42li9M0P7EIIY=
+			OyW4wVK6KeywkSlESNshwErvJ9ztfNFcLzj8YdmIpjA=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2XMcn3Ms0J/Xd5yrI87oRQ/O6SbvN/jmrHza16XAZg0=
+			4HO+H2zEmLanUQbHmS9HdEsyqv+CYlbuGSKuQJmcFLg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -113,6 +117,13 @@
 			<key>hash2</key>
 			<data>
 			9hx/eE7iP60deGJenV53ywAEELqhrzH2oja+om5MVic=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hC0x5WNfgUcyLWNO0YynJp8WP4GA8UJ3jzsP9pXfTJ0=
 			</data>
 		</dict>
 		<key>Sentry.bundle/Info.plist</key>
