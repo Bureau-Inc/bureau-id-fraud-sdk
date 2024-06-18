@@ -10,51 +10,51 @@
 		</data>
 		<key>Headers/bureau_id_fraud_sdk-Swift.h</key>
 		<data>
-		o7lS1lvyeBmfO0Ca7oeV98M5UrY=
+		pD1F6qWvnBZHIfB1sLGSk6Nn3nM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		teOfWXZZoydw4pwWETg35ug839g=
+		ah0Lzw+hIOII+Zt7TY4ME3D7IYw=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hX80UFVgjZXz1TDX3OtY6yrU3D0=
+		jMEb6Y1biTLcDxV2SUcmUfOIWUI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ElKPF58LJSqXbqoUJ4Y2h+ofLZc=
+		z5bD4U0YLAkNuU5imfELmXeDTLI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		skAIBSeljaRVMGHaqhWhMMGH+p4=
+		dUpbtmZOlvNDLdpL64PTVvsB85A=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ElKPF58LJSqXbqoUJ4Y2h+ofLZc=
+		z5bD4U0YLAkNuU5imfELmXeDTLI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JoZZznGq2xMKeq50aQr6b17j1A4=
+		Rs9gBCHil6g8VceIZ0U0zDgqMNg=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hX80UFVgjZXz1TDX3OtY6yrU3D0=
+		jMEb6Y1biTLcDxV2SUcmUfOIWUI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		buB9/Yu8HQwQzH3pef8wb12+oio=
+		8uDSsKVeyiSY529JjMe9yipMdd8=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wcAvIjeSLTzoJgxGv/rDnJrl6WY=
+		IGZns8hsqejXdNLtLWt4DlUPzvo=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		buB9/Yu8HQwQzH3pef8wb12+oio=
+		8uDSsKVeyiSY529JjMe9yipMdd8=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VrUdIDcmHChLZpy9JcplA0mLdM8=
+		z5ORcrEEzivOcbhHZNToEC7vToM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,6 +63,22 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		1P2fGR7sR7KjfFCHZhRbKNMwHBE=
+		</data>
+		<key>Sentry.bundle/Info.plist</key>
+		<data>
+		sDXCWCCZ8mdl4yZyBbCvDJSYUJI=
+		</data>
+		<key>Sentry.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		TQngLjTjLSFkIvzj0cUeqllg9oI=
+		</data>
+		<key>SwiftProtobuf.bundle/Info.plist</key>
+		<data>
+		RSlIUfQVa0dzB9qYHMQtyRItX1Y=
+		</data>
+		<key>SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		F6mYXr6EQZyLKcQNM0vmTGcGMns=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -78,77 +94,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lihaqw1ufLFXsPoiXD5p64/PDgmeSJSfu0u3NtQQbQU=
+			H7bRNv2mf+t3USh9sTtY7U/xxe5xjFBq4C8LC3HjTcA=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3EvQfiMb79ZAg9aaw46x1N3n1ZzmzPX3vqnNg1IKmQ=
+			err21vvy4hNMzOTfPvqqEqNdelqCIggIn68HQChkzzM=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZ8JNrZadhZsoDxxQiBUzArG1ZmLO0VVabLTmSxGYw0=
+			qBEzI+P1DOZz7MAefo3lhHfc+t0TdjWBj3MvodKwmTc=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zr1hDvHTKIJzLQhOGYnlBSakAM6+tWWt9RlYUpFFSc0=
+			uB80BgW2IdxMck73zQKwNyfeyZWmrCkgN08VLFs5gLQ=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZ8JNrZadhZsoDxxQiBUzArG1ZmLO0VVabLTmSxGYw0=
+			qBEzI+P1DOZz7MAefo3lhHfc+t0TdjWBj3MvodKwmTc=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQ3f5zPkna+4c8VWctq0G7u2Vb1sB8Lt0DH54oJ0Hnw=
+			uA55mxFv0H6cYdFrC4MU49TzWCfPHDv6Y8wikGem9aY=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3EvQfiMb79ZAg9aaw46x1N3n1ZzmzPX3vqnNg1IKmQ=
+			err21vvy4hNMzOTfPvqqEqNdelqCIggIn68HQChkzzM=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/uf+noMHr84mFavDBQVYwJa2fmtx+jusJeR/qBiVTp8=
+			jhU5JZDeKcbvb5463zzAh+DD0PCJ/eIs/XMVadkoLXY=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YYM927Pom0UM7Ji8dwekxw44zqn40v63lMkwM4rXMTI=
+			pSivQQdWdq6qWlBWjun2Xld2dXF5dGG3IC3c/l5OoJU=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/uf+noMHr84mFavDBQVYwJa2fmtx+jusJeR/qBiVTp8=
+			jhU5JZDeKcbvb5463zzAh+DD0PCJ/eIs/XMVadkoLXY=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kpyPoI6Xm/uOobQFJ3TnCfeBjSf7jeU4YcXzzGugdpc=
+			h34WSUWIDpP3YS2BthVhFLboKCJj0zhtN437mfz8hNY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -163,6 +179,34 @@
 			<key>hash2</key>
 			<data>
 			hC0x5WNfgUcyLWNO0YynJp8WP4GA8UJ3jzsP9pXfTJ0=
+			</data>
+		</dict>
+		<key>Sentry.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NIh/ZP46IQ+AohVad6lJe4k+YOqv4KLQ0RgJ9PijkSs=
+			</data>
+		</dict>
+		<key>Sentry.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EYsW4Ol//otvHwG34E9o5dp2RHSk050pM7DurvPNwMo=
+			</data>
+		</dict>
+		<key>SwiftProtobuf.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mpt+abvCN1YFsBxH2TZZs1i/v77UDCoQHgFpH5yZ9l0=
+			</data>
+		</dict>
+		<key>SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
 			</data>
 		</dict>
 	</dict>
