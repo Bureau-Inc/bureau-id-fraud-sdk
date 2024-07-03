@@ -325,12 +325,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 
 
 
+
 @class NSCoder;
 @class UIScrollView;
 @class NSString;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC19bureau_id_fraud_sdk20UserBehaviourCapture") SWIFT_AVAILABILITY(ios,introduced=13.0)
+SWIFT_CLASS("_TtC19bureau_id_fraud_sdk20UserBehaviourCapture")
 @interface UserBehaviourCapture : UIViewController <UIScrollViewDelegate>
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
@@ -340,7 +341,6 @@ SWIFT_CLASS("_TtC19bureau_id_fraud_sdk20UserBehaviourCapture") SWIFT_AVAILABILIT
 @class UIGestureRecognizer;
 @class UITouch;
 
-SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface UserBehaviourCapture (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -350,7 +350,6 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 @class NSData;
 @class NSURLSessionTask;
 
-SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface UserBehaviourCapture (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <NSURLSessionWebSocketDelegate>
 - (void)URLSession:(NSURLSession * _Nonnull)session webSocketTask:(NSURLSessionWebSocketTask * _Nonnull)webSocketTask didOpenWithProtocol:(NSString * _Nullable)protocol;
 - (void)URLSession:(NSURLSession * _Nonnull)session webSocketTask:(NSURLSessionWebSocketTask * _Nonnull)webSocketTask didCloseWithCode:(NSURLSessionWebSocketCloseCode)closeCode reason:(NSData * _Nullable)reason;
@@ -359,7 +358,6 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 
 @class UITextField;
 
-SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface UserBehaviourCapture (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <UITextFieldDelegate>
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
