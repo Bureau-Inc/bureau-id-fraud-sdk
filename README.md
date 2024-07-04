@@ -103,3 +103,61 @@ curl --location --request POST 'https://api.bureau.id/v1/suppliers/device-finger
     "sessionId": "697bb2d6-1111-1111-1111-548d6a809360"
 }'
 ```
+#### Step 4 - Enable Local Signals (Optional)
+
+By enabling local signals, our SDK can detect information about the end user's Apple device that could indicate potential security risks, such as:
+
+- **Mock GPS**: Indicates if the device is using a simulated location instead of the actual GPS.
+- **Debuggable**: Indicates if the app is running in debug mode, which can expose vulnerabilities.
+- **Jailbroken**: Indicates if the device has bypassed Apple's restrictions, potentially allowing unauthorized modifications.
+
+Enabling Local Signals is optional, but it can enhance your app's security.
+
+Follow the steps below to implement the LocalSignalDelegate protocol and handle these signals in your application.
+
+i. Set the Local Signal Delegate: Assign your class as the delegate in the SDK's initialization init function. This allows the SDK to communicate local signal information to your app.
+
+```swift
+BureauAPI.shared.localSignalDelegate = self
+```
+
+ii. Implement the LocalSignalDelegate Protocol: Implement the LocalSignalDelegate protocol in your class to handle the critical signals.
+
+#### Example Implementation
+
+Below is an example of how to implement the ```LocalSignalDelegate``` protocol in your view controller.
+
+```swift
+   extension YourViewController: LocalSignalDelegate {
+    
+     // Method to handle mock GPS signal
+    func deviceLocation(isMocked: Bool) {
+        if isMocked {
+            print("Warning: Device location is being mocked.")
+            // Add custom handling code for mocked GPS signal here
+        } else {
+            print("Device location is not mocked.")
+        }
+    }
+
+    // Method to handle jailbroken device signal
+    func device(isJailBreak: Bool) {
+        if isJailBreak {
+            print("Warning: Device is jailbroken.")
+            // Add custom handling code for jailbroken device signal here
+        } else {
+            print("Device is not jailbroken.")
+        }
+    }
+
+    // Method to handle app debug mode signal
+    func appDebugMode(enable: Bool) {
+        if enable {
+            print("Warning: App is in debug mode.")
+            // Add custom handling code for debug mode signal here
+        } else {
+            print("App is not in debug mode.")
+        }
+    }
+}
+```
