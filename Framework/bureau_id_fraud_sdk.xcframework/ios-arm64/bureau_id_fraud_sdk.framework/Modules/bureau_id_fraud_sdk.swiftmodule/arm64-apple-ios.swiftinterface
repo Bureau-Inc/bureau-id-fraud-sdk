@@ -56,6 +56,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func setUserID(_ userId: Swift.String)
   public func setCustomUrl(_ customUrl: Swift.String)
   public func setFlow(_ flow: Swift.String)
+  public func insertBBInputChangeData(_ text: Swift.String)
   @objc public func submit()
   @objc deinit
 }
@@ -212,6 +213,9 @@ public enum LocalRiskSignalFrequesncy {
   public var hashValue: Swift.Int {
     get
   }
+}
+public protocol BehavioralBiometricsHelper {
+  func getSessionId() -> Swift.String
 }
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
