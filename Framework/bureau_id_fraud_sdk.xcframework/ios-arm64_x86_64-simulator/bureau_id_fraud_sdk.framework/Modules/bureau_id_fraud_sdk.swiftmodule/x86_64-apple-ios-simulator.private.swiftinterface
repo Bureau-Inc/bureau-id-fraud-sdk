@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name bureau_id_fraud_sdk
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bureau_id_fraud_sdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AdSupport
@@ -57,12 +57,11 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func setCustomUrl(_ customUrl: Swift.String)
   public func setFlow(_ flow: Swift.String)
   public func insertBBInputChangeData(_ text: Swift.String)
-  @objc public func submit()
+  @objc public func submit(completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
 }
 extension bureau_id_fraud_sdk.BureauAPI : CoreLocation.CLLocationManagerDelegate {
   @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
 }
 public struct CredentialBuilder {
 }
@@ -99,6 +98,10 @@ extension bureau_id_fraud_sdk.BureauAPI {
   public func setLocalRiskSignalMonitoringFrequesncy(interval: Foundation.TimeInterval = 5)
   public func startMonitoringRiskSignals()
   public func setLocalRiskSignalMonitoringFrequesncy(sec: Foundation.TimeInterval)
+}
+extension bureau_id_fraud_sdk.BureauAPI {
+  public func isSDKInitializationSuccess() -> Swift.Bool
+  public func resetSDKInitialization()
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class UserBehaviourCapture : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor(unsafe) public var prismBehaviouralDelegate: (any bureau_id_fraud_sdk.PrismBehaviouralDelegate)?

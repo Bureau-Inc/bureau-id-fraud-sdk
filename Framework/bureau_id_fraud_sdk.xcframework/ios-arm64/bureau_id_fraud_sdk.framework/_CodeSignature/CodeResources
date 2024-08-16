@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/bureau_id_fraud_sdk-Swift.h</key>
 		<data>
-		sWRqVGOmPxo4yRK4dSaKPIibLtM=
+		3/CbunSb+uIwWOY3/LJhH5HpYqo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MR2oKuiv0SbxzAvq9VVPxX95g8k=
+		IpwsVbapZt6L/8BYfNUPbRuMwG0=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		0iP5xKrkD/pWRZXnhnrILfY/D9Q=
+		AB/zI/nivvZFH3mflfRw7rCpAIE=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0iP5xKrkD/pWRZXnhnrILfY/D9Q=
+		AB/zI/nivvZFH3mflfRw7rCpAIE=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jgSmwzCdSnYcFbroNvhIztxcPlM=
+		oZeJr1PTNaT2+u85+bPVzeT5Rq8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,21 +58,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkWedbZk5eKCo+fBAARxp2IHBIrqDm6IfcdXVLUfhWs=
+			QEeh8lsFNO71157xOpmRRZkizjIpaMSZ8C/kA5RqB6s=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rOgYBdhUTSPoQ9gunc3r02wjRH2ZxDkJlHDCGOh5EW8=
+			GZL1NTXJFAdlUfBQh7ecBYyrr/GjCEpcL+x8l3I3nvw=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJkCbArz/eIB9Y2gKS2IKqoBxPHhi/jY5BXVNx3LmGI=
+			M9yMl5hW8a+U/kM1h6ICZJLbkwKd4JeDMIZsWpGYquM=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJkCbArz/eIB9Y2gKS2IKqoBxPHhi/jY5BXVNx3LmGI=
+			M9yMl5hW8a+U/kM1h6ICZJLbkwKd4JeDMIZsWpGYquM=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SuPHp74yswPQD01yQugDvNh1znCSo1a82MCQoFF4C+o=
+			dsQsKMPcLcG/OD9tUXFQvMRuURZLjbSuC4y0xVCNqtI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

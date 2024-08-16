@@ -308,7 +308,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 + (BureauAPI * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)submit;
+- (void)submitWithCompletion:(void (^ _Nullable)(BOOL))completion;
 @end
 
 @class CLLocationManager;
@@ -316,8 +316,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 
 @interface BureauAPI (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 @end
+
 
 
 
@@ -683,7 +683,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 + (BureauAPI * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)submit;
+- (void)submitWithCompletion:(void (^ _Nullable)(BOOL))completion;
 @end
 
 @class CLLocationManager;
@@ -691,8 +691,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 
 @interface BureauAPI (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 @end
+
 
 
 
