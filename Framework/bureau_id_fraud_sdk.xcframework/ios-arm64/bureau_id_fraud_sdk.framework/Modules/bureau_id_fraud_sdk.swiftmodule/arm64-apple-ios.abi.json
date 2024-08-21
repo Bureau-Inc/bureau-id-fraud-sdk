@@ -2070,6 +2070,10 @@
                 "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC24prismBehaviouralDelegateAA05PrismiJ0_pSgvM",
                 "moduleName": "bureau_id_fraud_sdk",
                 "implicit": true,
+                "intro_iOS": "13.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -2668,10 +2672,12 @@
         "usr": "c:@M@bureau_id_fraud_sdk@objc(cs)UserBehaviourCapture",
         "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC",
         "moduleName": "bureau_id_fraud_sdk",
+        "intro_iOS": "13.0",
         "declAttributes": [
           "Custom",
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "Available"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
         "hasMissingDesignatedInitializers": true,
@@ -8560,254 +8566,240 @@
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 659,
+      "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 685,
+      "offset": 684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 1088,
+      "offset": 1090,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 1335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 2259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2292,
+      "offset": 2277,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 2525,
+      "offset": 2510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 3335,
+      "offset": 3322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 3530,
+      "offset": 3517,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3794,
+      "offset": 3781,
       "length": 17,
       "value": "\"<---initSDK--->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
-      "length": 13,
-      "value": "\"development\""
+      "offset": 4595,
+      "length": 12,
+      "value": "\"production\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
-      "offset": 5019,
+      "offset": 5007,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 5316,
+      "offset": 5304,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 5648,
+      "offset": 5636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6158,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 6546,
+      "offset": 6550,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6879,
+      "offset": 6883,
       "length": 43,
       "value": "\"not determined - hence ask for Permission\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 6968,
+      "offset": 6972,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7031,
+      "offset": 7035,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7047,
+      "offset": 7051,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7160,
+      "offset": 7164,
       "length": 19,
       "value": "\"permission denied\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 7225,
+      "offset": 7229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7288,
+      "offset": 7292,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7304,
+      "offset": 7308,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7436,
+      "offset": 7440,
       "length": 103,
       "value": "\"Apple delegate gves the call back here once user taps Allow option, Make sure delegate is set to self\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 7580,
+      "offset": 7584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7726,
+      "offset": 7730,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7792,
+      "offset": 7796,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7846,
+      "offset": 7850,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7919,
+      "offset": 7923,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 7988,
+      "offset": 7992,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 8074,
+      "offset": 8078,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8136,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
@@ -8818,437 +8810,430 @@
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 8181,
+      "offset": 8185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 8249,
+      "offset": 8253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8454,
+      "offset": 8458,
       "length": 21,
       "value": "\"Permission Approved\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8536,
+      "offset": 8540,
       "length": 21,
       "value": "\"Location not enable\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8602,
+      "offset": 8606,
       "length": 30,
       "value": "\"Error : Location not enabled\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 8674,
+      "offset": 8678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 8733,
+      "offset": 8737,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 8749,
+      "offset": 8753,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9100,
+      "offset": 9104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9176,
+      "offset": 9180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9253,
+      "offset": 9257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9297,
+      "offset": 9301,
       "length": 53,
       "value": "\"Error : <user\/session\/client>ID should not be empty\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
-      "offset": 9376,
+      "offset": 9380,
       "length": 82,
       "value": "[(\"apiResponse\", [(\"error\", \"Error : <user\/session\/client>ID should not be empty\")])]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 9575,
+      "offset": 9579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 9882,
+      "offset": 9886,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 9978,
+      "offset": 9982,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10077,
+      "offset": 10081,
       "length": 32,
       "value": "\"NSUserTrackingUsageDescription\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10333,
+      "offset": 10337,
       "length": 17,
       "value": "\"enable tracking\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10419,
+      "offset": 10423,
       "length": 18,
       "value": "\"disable tracking\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 10907,
+      "offset": 10911,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
-      "offset": 11103,
+      "offset": 11107,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 11200,
+      "offset": 11204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 11360,
+      "offset": 11364,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 11446,
+      "offset": 11450,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11507,
+      "offset": 11511,
       "length": 13,
       "value": "\"apiResponse\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11524,
+      "offset": 11528,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 11696,
+      "offset": 11700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12727,
+      "offset": 12731,
       "length": 9,
       "value": "\"userId_\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12790,
+      "offset": 12794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13249,
+      "offset": 13253,
       "length": 49,
       "value": "\"<--------------->\n After payloadEncryption: \n\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13314,
+      "offset": 13318,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13387,
+      "offset": 13391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13534,
+      "offset": 13538,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13570,
+      "offset": 13574,
       "length": 18,
       "value": "\"Application\/json\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13610,
+      "offset": 13614,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13711,
+      "offset": 13715,
       "length": 29,
       "value": "\"x-bureau-auth-credential-id\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13771,
+      "offset": 13775,
       "length": 7,
       "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13800,
+      "offset": 13804,
       "length": 22,
       "value": "\"x-bureau-api-version\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
-      "offset": 13916,
+      "offset": 13920,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Array",
-      "offset": 13930,
+      "offset": 13934,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14385,
+      "offset": 14391,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14422,
+      "offset": 14428,
       "length": 15,
       "value": "\"Fail Response\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Array",
-      "offset": 14617,
+      "offset": 14623,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14702,
+      "offset": 14708,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 14812,
+      "offset": 14818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14869,
-      "length": 12,
-      "value": "\"BBResponse\""
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 15019,
+      "offset": 15027,
       "length": 13,
       "value": "\"apiResponse\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15089,
+      "offset": 15097,
       "length": 21,
       "value": "\"Bureau Response -->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 15440,
+      "offset": 15448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 15538,
+      "offset": 15546,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15589,
+      "offset": 15597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15593,
+      "offset": 15601,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 15622,
+      "offset": 15630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 15666,
+      "offset": 15674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 17404,
+      "offset": 17412,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 17919,
+      "offset": 17927,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 18480,
+      "offset": 18488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 19107,
+      "offset": 19115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 284,
+      "offset": 308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 322,
+      "offset": 346,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 358,
+      "offset": 382,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
@@ -9260,1155 +9245,1162 @@
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 570,
+      "offset": 571,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 877,
+      "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 943,
+      "offset": 967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Dictionary",
-      "offset": 1040,
+      "offset": 1064,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 1152,
+      "offset": 1176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 1246,
+      "offset": 1270,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1652,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1850,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 2022,
+      "offset": 2046,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2226,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3527,
+      "offset": 3551,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3572,
+      "offset": 3596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3576,
+      "offset": 3600,
       "length": 14,
       "value": "\"subSessionId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3605,
+      "offset": 3629,
       "length": 7,
       "value": "\"appId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3647,
+      "offset": 3671,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3651,
+      "offset": 3675,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3691,
+      "offset": 3715,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3729,
+      "offset": 3753,
       "length": 21,
       "value": "\"SubSession Param-->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3848,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3965,
+      "offset": 3989,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 3997,
+      "offset": 4021,
       "length": 18,
       "value": "\"Application\/json\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4037,
+      "offset": 4061,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4134,
+      "offset": 4158,
       "length": 29,
       "value": "\"x-bureau-auth-credential-id\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 4254,
+      "offset": 4278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4603,
+      "offset": 4627,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4709,
       "length": 15,
       "value": "\"Fail Response\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 4825,
+      "offset": 4849,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 4869,
+      "offset": 4893,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 4931,
+      "offset": 4955,
       "length": 26,
       "value": "\"<--SubSession Created-->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5000,
+      "offset": 5024,
       "length": 10,
       "value": "\"Error ->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5028,
+      "offset": 5052,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5277,
+      "offset": 5301,
       "length": 29,
       "value": "\"x-bureau-auth-credential-id\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5790,
       "length": 33,
       "value": "\"Error sending message: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5798,
+      "offset": 5822,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 5892,
+      "offset": 5916,
       "length": 14,
       "value": "\"Message sent\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 6382,
+      "offset": 6406,
       "length": 32,
       "value": "\"Received text message: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 6413,
+      "offset": 6437,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 6496,
+      "offset": 6520,
       "length": 32,
       "value": "\"Received data message: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 6527,
+      "offset": 6551,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 6606,
+      "offset": 6630,
       "length": 34,
       "value": "\"Received an unknown message type\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7042,
+      "offset": 7066,
       "length": 35,
       "value": "\"WebSocket receive error: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7076,
+      "offset": 7100,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 7222,
+      "offset": 7246,
       "length": 3,
       "value": "160"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7323,
+      "offset": 7347,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7334,
+      "offset": 7358,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7345,
+      "offset": 7369,
       "length": 11,
       "value": "\"sessionID\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7396,
+      "offset": 7420,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7400,
+      "offset": 7424,
       "length": 14,
       "value": "\"subSessionID\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7565,
+      "offset": 7589,
       "length": 29,
       "value": "\"handleError error: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7593,
+      "offset": 7617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7886,
+      "offset": 7910,
       "length": 22,
       "value": "\"viewport_size_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7979,
+      "offset": 8003,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 7982,
+      "offset": 8006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 8042,
+      "offset": 8066,
       "length": 22,
       "value": "\"viewport_size_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 8137,
+      "offset": 8161,
       "length": 22,
       "value": "\"viewport_size_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 8678,
+      "offset": 8702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 8826,
+      "offset": 8850,
       "length": 8,
       "value": "\"sameVC\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 8985,
+      "offset": 9009,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 9053,
+      "offset": 9077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9131,
+      "offset": 9155,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9201,
+      "offset": 9225,
       "length": 14,
       "value": "\"subSessionId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9275,
+      "offset": 9299,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9361,
+      "offset": 9385,
       "length": 13,
       "value": "\"client_time\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 9410,
+      "offset": 9434,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 9440,
+      "offset": 9464,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9881,
+      "offset": 9905,
       "length": 115,
       "value": "\"{\"action\":\"bundle\",\"subSessionId\":\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9937,
+      "offset": 9961,
       "length": 1,
       "value": "\"\",\"payload\":\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 9992,
+      "offset": 10016,
       "length": 1,
       "value": "\"\"}\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 10078,
+      "offset": 10102,
       "length": 35,
       "value": "\"Error loading JSON data: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 10112,
+      "offset": 10136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 10470,
+      "offset": 10494,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 10614,
+      "offset": 10638,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 10949,
+      "offset": 10973,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11053,
+      "offset": 11077,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11066,
+      "offset": 11090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11129,
+      "offset": 11153,
       "length": 18,
       "value": "\"frame_rate_event\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11222,
+      "offset": 11246,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11225,
+      "offset": 11249,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11289,
+      "offset": 11313,
       "length": 18,
       "value": "\"frame_rate_event\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 11388,
+      "offset": 11412,
       "length": 18,
       "value": "\"frame_rate_event\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 11509,
+      "offset": 11533,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 11540,
+      "offset": 11564,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13075,
+      "offset": 13099,
       "length": 25,
       "value": "\"Swipe gesture detected!\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13360,
+      "offset": 13384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13394,
+      "offset": 13418,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13401,
+      "offset": 13425,
       "length": 11,
       "value": "\" UIButton\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13424,
+      "offset": 13448,
       "length": 8,
       "value": "\"target\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13490,
+      "offset": 13514,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13575,
+      "offset": 13599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13578,
+      "offset": 13602,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13638,
+      "offset": 13662,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 13725,
+      "offset": 13749,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14239,
+      "offset": 14263,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14332,
+      "offset": 14356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14335,
+      "offset": 14359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14403,
+      "offset": 14427,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 14506,
+      "offset": 14530,
       "length": 14,
       "value": "\"pointer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 15499,
+      "offset": 15523,
       "length": 7,
       "value": "\"PASTE\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 15509,
+      "offset": 15533,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 15544,
+      "offset": 15568,
       "length": 7,
       "value": "\"PASTE\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 15722,
+      "offset": 15746,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 15834,
+      "offset": 15858,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 15848,
+      "offset": 15872,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 15897,
+      "offset": 15921,
       "length": 10,
       "value": "\"AUTOFILL\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 15998,
+      "offset": 16022,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16140,
+      "offset": 16164,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16326,
+      "offset": 16350,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16605,
+      "offset": 16629,
       "length": 22,
       "value": "\"viewport_scroll_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16699,
+      "offset": 16723,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16702,
+      "offset": 16726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16762,
+      "offset": 16786,
       "length": 22,
       "value": "\"viewport_scroll_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16858,
+      "offset": 16882,
       "length": 22,
       "value": "\"viewport_scroll_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 16982,
+      "offset": 17006,
       "length": 12,
       "value": "\"BACKGROUND\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17087,
+      "offset": 17111,
       "length": 12,
       "value": "\"FOREGROUND\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17186,
+      "offset": 17210,
       "length": 11,
       "value": "\"TERMINATE\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17381,
+      "offset": 17405,
       "length": 23,
       "value": "\"app_life_cycle_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17478,
+      "offset": 17502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17481,
+      "offset": 17505,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17541,
+      "offset": 17565,
       "length": 23,
       "value": "\"app_life_cycle_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17640,
+      "offset": 17664,
       "length": 23,
       "value": "\"app_life_cycle_events\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 17899,
+      "offset": 17923,
       "length": 19,
       "value": "\"focus_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 18041,
+      "offset": 18065,
       "length": 19,
       "value": "\"focus_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 18133,
+      "offset": 18157,
       "length": 19,
       "value": "\"focus_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 18425,
+      "offset": 18449,
       "length": 19,
       "value": "\"input_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 18572,
+      "offset": 18596,
       "length": 19,
       "value": "\"input_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 18669,
+      "offset": 18693,
       "length": 19,
       "value": "\"input_change_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 18855,
+      "offset": 18879,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 19113,
+      "offset": 19137,
       "length": 20,
       "value": "\"accelerometer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 19285,
+      "offset": 19309,
       "length": 20,
       "value": "\"accelerometer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 19407,
+      "offset": 19431,
       "length": 20,
       "value": "\"accelerometer_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 19496,
+      "offset": 19520,
       "length": 32,
       "value": "\"Accelerometer is not available\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 19673,
+      "offset": 19697,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 19914,
+      "offset": 19938,
       "length": 16,
       "value": "\"gyroscope_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20078,
+      "offset": 20102,
       "length": 16,
       "value": "\"gyroscope_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20192,
+      "offset": 20216,
       "length": 16,
       "value": "\"gyroscope_data\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20277,
+      "offset": 20301,
       "length": 28,
       "value": "\"Gyroscope is not available\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 20398,
+      "offset": 20422,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20450,
+      "offset": 20474,
       "length": 24,
       "value": "\"<--- STOP Session --->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 20687,
+      "offset": 20711,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20705,
+      "offset": 20729,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20716,
+      "offset": 20740,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20729,
+      "offset": 20753,
       "length": 11,
       "value": "\"sessionID\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20780,
+      "offset": 20804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 20784,
+      "offset": 20808,
       "length": 14,
       "value": "\"subSessionID\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 154,
+      "offset": 178,
       "length": 20,
       "value": "\"bureau_id_fraud_sdk.UserBehaviourCapture\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
-      "offset": 21104,
+      "offset": 21128,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 21729,
+      "offset": 21777,
       "length": 14,
       "value": "\"FOCUS_GAINED\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 21880,
+      "offset": 21928,
       "length": 12,
       "value": "\"FOCUS_LOST\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22098,
+      "offset": 22146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22320,
+      "offset": 22368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22362,
+      "offset": 22410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22393,
+      "offset": 22441,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22789,
+      "offset": 22861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 22820,
+      "offset": 22892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 23039,
+      "offset": 23135,
       "length": 23,
       "value": "\"<--SOCKET CONNETED-->\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "IntegerLiteral",
-      "offset": 23294,
+      "offset": 23390,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 23306,
+      "offset": 23402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 23662,
+      "offset": 23758,
       "length": 27,
       "value": "\"Received message: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 23688,
+      "offset": 23784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 23826,
+      "offset": 23922,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 24016,
+      "offset": 24112,
       "length": 30,
       "value": "\"WebSocket connection closed.\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 24326,
+      "offset": 24422,
       "length": 45,
       "value": "\"WebSocket disconnected with error: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 24370,
+      "offset": 24466,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
-      "offset": 24452,
+      "offset": 24548,
       "length": 24,
       "value": "\"WebSocket disconnected\""
     },
@@ -17541,693 +17533,707 @@
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 811,
       "length": 8,
       "value": "\"%02hhx\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 807,
+      "offset": 1003,
+      "length": 8,
+      "value": "\"%02hhx\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
       "length": 13,
       "value": "\"deviceDelta\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 843,
+      "offset": 1116,
       "length": 7,
       "value": "\"ghval\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 944,
+      "offset": 1217,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 1025,
+      "offset": 1298,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 1718,
+      "offset": 1991,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 2047,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 1779,
+      "offset": 2052,
       "length": 7,
       "value": "\"eaKey\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 2069,
       "length": 6,
       "value": "\"eaIV\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 2460,
       "length": 18,
       "value": "\"0123456789abcdef\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 1957,
+      "offset": 2500,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2661,
       "length": 3,
       "value": "\"{\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 2144,
+      "offset": 2687,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2822,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 2330,
+      "offset": 2873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2377,
+      "offset": 2920,
       "length": 13,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2386,
+      "offset": 2929,
       "length": 1,
       "value": "\"\":\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 3159,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 3330,
       "length": 20,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2804,
+      "offset": 3347,
       "length": 1,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2903,
+      "offset": 3446,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 2916,
+      "offset": 3459,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3554,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3566,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3124,
+      "offset": 3667,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3139,
+      "offset": 3682,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3355,
+      "offset": 3898,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3464,
+      "offset": 4007,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 4042,
       "length": 3,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
+      "offset": 4135,
       "length": 20,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3609,
+      "offset": 4152,
       "length": 1,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3696,
+      "offset": 4239,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3708,
+      "offset": 4251,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 4338,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3808,
+      "offset": 4351,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3899,
+      "offset": 4442,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 4457,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 3979,
+      "offset": 4522,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4576,
       "length": 3,
       "value": "\"}\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 4390,
+      "offset": 4933,
       "length": 29,
       "value": "\"Error: Failed to set a key.\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 4565,
+      "offset": 5108,
       "length": 41,
       "value": "\"Error: Failed to set an initial vector.\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 5340,
+      "offset": 5883,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 5948,
+      "offset": 6491,
       "length": 47,
       "value": "\"Error: Failed to crypt data. Status \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 5994,
+      "offset": 6537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 6275,
+      "offset": 6818,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 6280,
+      "offset": 6823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "Array",
-      "offset": 6346,
+      "offset": 6889,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 6414,
+      "offset": 6957,
       "length": 8,
       "value": "\"%02hhX\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 6425,
+      "offset": 6968,
       "length": 8,
       "value": "\"%02hhx\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 6989,
+      "offset": 7532,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 7419,
+      "offset": 7962,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "Array",
-      "offset": 8115,
+      "offset": 8658,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 8136,
+      "offset": 8679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 8568,
+      "offset": 9111,
       "length": 28,
       "value": "\"-----BEGIN PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 8634,
+      "offset": 9177,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9055,
+      "offset": 9598,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 9220,
+      "offset": 9763,
       "length": 3,
       "value": "392"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 9239,
+      "offset": 9782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9277,
+      "offset": 9820,
       "length": 10,
       "value": "\"Po6Q3HTQ\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9311,
+      "offset": 9854,
       "length": 12,
       "value": "\"CyrePt8HOD\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9347,
+      "offset": 9890,
       "length": 13,
       "value": "\"amxqAElBNnR\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 9470,
+      "offset": 10013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 9554,
+      "offset": 10097,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9571,
+      "offset": 10114,
       "length": 3,
       "value": "\"o\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 9590,
+      "offset": 10133,
       "length": 3,
       "value": "108"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9608,
+      "offset": 10151,
       "length": 3,
       "value": "\"M\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 9627,
+      "offset": 10170,
       "length": 3,
       "value": "203"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 9645,
+      "offset": 10188,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 9671,
+      "offset": 10214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 9711,
+      "offset": 10254,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9740,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9771,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9802,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9832,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9858,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9946,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "StringLiteral",
-      "offset": 10018,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10056,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10108,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10129,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10169,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10221,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10242,
-      "length": 3,
-      "value": "122"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
       "offset": 10283,
       "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10314,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10345,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10375,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10401,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10489,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "StringLiteral",
+      "offset": 10561,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10599,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10651,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10672,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10712,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10764,
+      "length": 2,
+      "value": "97"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10785,
+      "length": 3,
+      "value": "122"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10826,
+      "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 10335,
+      "offset": 10878,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10376,
+      "offset": 10919,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 10428,
+      "offset": 10971,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10465,
+      "offset": 11008,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10519,
+      "offset": 11062,
       "length": 5,
       "value": "33110"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10544,
+      "offset": 11087,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10567,
+      "offset": 11110,
       "length": 3,
       "value": "176"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10592,
+      "offset": 11135,
       "length": 3,
       "value": "152"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10616,
+      "offset": 11159,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 10634,
+      "offset": 11177,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 10658,
+      "offset": 11201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "BooleanLiteral",
-      "offset": 10698,
+      "offset": 11241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 10803,
+      "offset": 11346,
       "length": 28,
       "value": "\"-----BEGIN PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 10871,
+      "offset": 11414,
       "length": 26,
       "value": "\"-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "StringLiteral",
-      "offset": 11314,
+      "offset": 11857,
       "length": 4,
       "value": "\"\n\""
     },
@@ -18277,118 +18283,118 @@
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 697,
-      "length": 7,
-      "value": "\"1.0.8\""
+      "length": 10,
+      "value": "\"1.0.8-s1\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 735,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXuOQmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBrOUahomTsZPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeUE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1342,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/zOAqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTyQoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYulkdC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT4OKB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1946,
+      "offset": 1949,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 2561,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9wOBAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUFOGUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3202,
       "length": 33,
       "value": "\"v1\/deviceService\/deviceData\/ios\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3271,
       "length": 7,
       "value": "\"v2\/pc\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3317,
       "length": 39,
       "value": "\"v1\/deviceService\/behaviour\/subSession\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3385,
+      "offset": 3388,
       "length": 109,
       "value": "\"wss:\/\/k69rlbfuz2.execute-api.ap-south-1.amazonaws.com\/dev?credentialId=3e8449fb-d8a0-4e38-a643-ab4bb6d8d775\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3538,
+      "offset": 3541,
       "length": 85,
       "value": "\"https:\/\/97dab99acb22475b43a17c2b9816b39c@o1297842.ingest.sentry.io\/4506189612515328\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4782,
+      "offset": 4785,
       "length": 23,
       "value": "\"kcUniqueIdentifierKey\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5006,
+      "offset": 5009,
       "length": 65,
       "value": "\"https:\/\/bfp.dev.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 5127,
       "length": 65,
       "value": "\"https:\/\/bfp.stg.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5243,
+      "offset": 5246,
       "length": 65,
       "value": "\"https:\/\/bfp.prd.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5363,
+      "offset": 5366,
       "length": 102,
       "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5492,
+      "offset": 5495,
       "length": 102,
       "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5621,
+      "offset": 5624,
       "length": 102,
       "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
     },
