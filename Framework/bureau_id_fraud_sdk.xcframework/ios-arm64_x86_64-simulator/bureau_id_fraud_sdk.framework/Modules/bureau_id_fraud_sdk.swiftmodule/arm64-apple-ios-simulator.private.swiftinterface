@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bureau_id_fraud_sdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name bureau_id_fraud_sdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -12,12 +12,15 @@ import CoreGraphics
 import CoreLocation
 import CoreMotion
 import CryptoKit
+import Darwin
 import Foundation
 import JavaScriptCore
 import LocalAuthentication
 import MachO
 import MessageUI
 import Network
+import ObjectiveC
+import Security
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -27,10 +30,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol DeviceInfoProviding {
-  #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 13.0, tvOS 13.0, *)
   func getDeviceInfo() async -> bureau_id_fraud_sdk.DeviceInfo
-  #endif
   func getDeviceInfo(_ completion: @escaping (bureau_id_fraud_sdk.DeviceInfo) -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers public class DeviceInfoProvider {
@@ -38,10 +39,8 @@ public protocol DeviceInfoProviding {
   @objc deinit
 }
 extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInfoProviding {
-  #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 13.0, tvOS 13.0, *)
   public func getDeviceInfo() async -> bureau_id_fraud_sdk.DeviceInfo
-  #endif
   public func getDeviceInfo(_ completion: @escaping (bureau_id_fraud_sdk.DeviceInfo) -> Swift.Void)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class BureauAPI : ObjectiveC.NSObject {
@@ -50,13 +49,13 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
   public func configure(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "", flow: Swift.String = "", enableBehavioralBiometrics: Swift.Bool, enableDebugLog: Swift.Bool = false)
-  required public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "", flow: Swift.String = "", refVC: UIKit.UIViewController, enableBehavioralBiometrics: Swift.Bool)
   public func startSubSession(_ subSessionID: Swift.String)
   public func stopSubSession()
   public func setUserID(_ userId: Swift.String)
   public func setCustomUrl(_ customUrl: Swift.String)
   public func setFlow(_ flow: Swift.String)
-  public func insertBBInputChangeData(_ text: Swift.String)
+  public func insertBBInputChangeData(_ text: Swift.String, _ prevText: Swift.String, _ identifier: Swift.String)
+  public func insertFocusChangeData(_ focusType: Swift.String, _ identifier: Swift.String)
   @objc public func submit(completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
 }
@@ -104,32 +103,32 @@ extension bureau_id_fraud_sdk.BureauAPI {
   public func resetSDKInitialization()
 }
 @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
-@objc @_Concurrency.MainActor(unsafe) public class UserBehaviourCapture : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) public var prismBehaviouralDelegate: (any bureau_id_fraud_sdk.PrismBehaviouralDelegate)?
-  @_Concurrency.MainActor(unsafe) public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "")
-  @_Concurrency.MainActor(unsafe) public func startSession(_ subSessionID: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func setUserID(_ userId: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func setFlow(_ flow: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func stopSession() -> [Swift.String : Any]
+@objc @_Concurrency.MainActor @preconcurrency public class UserBehaviourCapture : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency public var prismBehaviouralDelegate: (any bureau_id_fraud_sdk.PrismBehaviouralDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "")
+  @_Concurrency.MainActor @preconcurrency public func startSession(_ subSessionID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func setUserID(_ userId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func setFlow(_ flow: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func stopSession() -> [Swift.String : Any]
   @objc deinit
 }
 @available(iOS 13.0, *)
 extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 @available(iOS 13.0, *)
 extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
 }
 @available(iOS 13.0, *)
 extension bureau_id_fraud_sdk.UserBehaviourCapture : Foundation.URLSessionWebSocketDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
 }
 public protocol PrismBehaviouralDelegate : ObjectiveC.NSObject {
   func onSuccessCallBack(data: [Swift.String : Any]?)
@@ -185,15 +184,9 @@ extension bureau_id_fraud_sdk.Fingerprinter {
 }
 @available(iOS 13.0, tvOS 13.0, *)
 extension bureau_id_fraud_sdk.Fingerprinter {
-  #if compiler(>=5.3) && $AsyncAwait
   public func getDeviceId() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getFingerprintTree() async -> bureau_id_fraud_sdk.FingerprintTree
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getFingerprint() async -> Swift.String?
-  #endif
 }
 public protocol FingerprinterInstanceProviding {
   static func getInstance(_ configuration: bureau_id_fraud_sdk.Configuration) -> bureau_id_fraud_sdk.Fingerprinter
@@ -261,6 +254,38 @@ extension CoreFoundation.CGSize : Swift.CustomStringConvertible {
     get
   }
 }
+public typealias FailedCheckType = (check: bureau_id_fraud_sdk.FailedCheck, failMessage: Swift.String)
+public enum FailedCheck : Swift.CaseIterable {
+  case urlSchemes
+  case existenceOfSuspiciousFiles
+  case suspiciousFilesCanBeOpened
+  case restrictedDirectoriesWriteable
+  case fork
+  case symbolicLinks
+  case dyld
+  case openedPorts
+  case pSelectFlag
+  case suspiciousObjCClasses
+  public static func == (a: bureau_id_fraud_sdk.FailedCheck, b: bureau_id_fraud_sdk.FailedCheck) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [bureau_id_fraud_sdk.FailedCheck]
+  nonisolated public static var allCases: [bureau_id_fraud_sdk.FailedCheck] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
+public class BureauSecurityLib {
+  public static func amIJailbroken() -> Swift.Bool
+  public static func amIRunInEmulator() -> Swift.Bool
+  public static func amIJailbrokenWithFailMessage() -> (jailbroken: Swift.Bool, failMessage: Swift.String)
+  public static func amIJailbrokenWithFailedChecks() -> (jailbroken: Swift.Bool, failedChecks: [bureau_id_fraud_sdk.FailedCheckType])
+  public static func amIReverseEngineered() -> Swift.Bool
+  public static func amIReverseEngineeredWithFailedChecks() -> (reverseEngineered: Swift.Bool, failedChecks: [bureau_id_fraud_sdk.FailedCheckType])
+  @objc deinit
+}
 extension bureau_id_fraud_sdk.Mode : Swift.Equatable {}
 extension bureau_id_fraud_sdk.Mode : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FingerprintJSVersion : Swift.Equatable {}
@@ -272,3 +297,5 @@ extension bureau_id_fraud_sdk.DebugLogger.LogLevel : Swift.Hashable {}
 extension bureau_id_fraud_sdk.DebugLogger.LogLevel : Swift.RawRepresentable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
+extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
+extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}
