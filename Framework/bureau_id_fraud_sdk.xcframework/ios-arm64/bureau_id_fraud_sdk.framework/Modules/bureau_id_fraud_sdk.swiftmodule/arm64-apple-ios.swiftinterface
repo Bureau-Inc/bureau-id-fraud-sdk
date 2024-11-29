@@ -29,6 +29,18 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum BureauError : Swift.Error {
+  case eventIDEmpty
+  case eaKeysEmpty
+  case httpException
+  case networkError
+  case unknown(statusCode: Swift.Int)
+}
+extension bureau_id_fraud_sdk.BureauError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public protocol DeviceInfoProviding {
   @available(iOS 13.0, tvOS 13.0, *)
   func getDeviceInfo() async -> bureau_id_fraud_sdk.DeviceInfo
@@ -49,7 +61,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
   public var utilityDelegate: (any bureau_id_fraud_sdk.UtilityDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
-  public func configure(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "", flow: Swift.String = "", enableBehavioralBiometrics: Swift.Bool, enableDebugLog: Swift.Bool = false)
+  public func configure(config: bureau_id_fraud_sdk.BureauConfig)
   public func startSubSession(_ subSessionID: Swift.String)
   public func stopSubSession()
   public func setUserID(_ userId: Swift.String)
@@ -57,7 +69,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func setFlow(_ flow: Swift.String)
   public func insertBBInputChangeData(_ text: Swift.String, _ prevText: Swift.String, _ identifier: Swift.String)
   public func insertFocusChangeData(_ focusType: Swift.String, _ identifier: Swift.String)
-  @objc public func submit(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public func submit(onCompletion: ((Swift.Bool, bureau_id_fraud_sdk.BureauError?) -> Swift.Void)? = nil)
   @objc deinit
 }
 extension bureau_id_fraud_sdk.BureauAPI : CoreLocation.CLLocationManagerDelegate {
@@ -65,11 +77,10 @@ extension bureau_id_fraud_sdk.BureauAPI : CoreLocation.CLLocationManagerDelegate
 }
 public struct CredentialBuilder {
 }
-public enum Mode {
-  case sandbox
-  case production
+public enum Environment {
   case stage
-  public static func == (a: bureau_id_fraud_sdk.Mode, b: bureau_id_fraud_sdk.Mode) -> Swift.Bool
+  case production
+  public static func == (a: bureau_id_fraud_sdk.Environment, b: bureau_id_fraud_sdk.Environment) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -96,8 +107,8 @@ public protocol UtilityDelegate : AnyObject {
   func getPayload(payload: Foundation.NSDictionary)
 }
 extension bureau_id_fraud_sdk.BureauAPI {
-  public func localRiskSignalMonitoring(frequency: bureau_id_fraud_sdk.LocalRiskSignalFrequesncy, interval: Foundation.TimeInterval = 5)
-  public func stopRiskSignalMonitoringImmediately()
+  public func enableRiskMonitoring(frequency: bureau_id_fraud_sdk.LocalRiskSignalFrequesncy, interval: Foundation.TimeInterval = 5)
+  public func disableRiskMonitoring()
   public func setLocalRiskSignalMonitoringFrequesncy(interval: Foundation.TimeInterval = 5)
   public func startMonitoringRiskSignals()
   public func setLocalRiskSignalMonitoringFrequesncy(sec: Foundation.TimeInterval)
@@ -109,12 +120,12 @@ extension bureau_id_fraud_sdk.BureauAPI {
 @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @objc @_Concurrency.MainActor @preconcurrency public class UserBehaviourCapture : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor @preconcurrency public var prismBehaviouralDelegate: (any bureau_id_fraud_sdk.PrismBehaviouralDelegate)?
-  @_Concurrency.MainActor @preconcurrency public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Mode, sessionID: Swift.String, userId: Swift.String = "")
-  @_Concurrency.MainActor @preconcurrency public func startSession(_ subSessionID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Environment, sessionID: Swift.String, userId: Swift.String = "")
+  @_Concurrency.MainActor @preconcurrency public func startCapture(_ subSessionID: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func setUserID(_ userId: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func setFlow(_ flow: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency public func stopSession() -> [Swift.String : Any]
+  @_Concurrency.MainActor @preconcurrency public func stopCapture() -> [Swift.String : Any]
   @objc deinit
 }
 @available(iOS 13.0, *)
@@ -290,8 +301,11 @@ public class BureauSecurityLib {
   public static func amIReverseEngineeredWithFailedChecks() -> (reverseEngineered: Swift.Bool, failedChecks: [bureau_id_fraud_sdk.FailedCheckType])
   @objc deinit
 }
-extension bureau_id_fraud_sdk.Mode : Swift.Equatable {}
-extension bureau_id_fraud_sdk.Mode : Swift.Hashable {}
+public struct BureauConfig {
+  public init(credentialID: Swift.String, eventId: Swift.String, environment: bureau_id_fraud_sdk.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
+}
+extension bureau_id_fraud_sdk.Environment : Swift.Equatable {}
+extension bureau_id_fraud_sdk.Environment : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FingerprintJSVersion : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FingerprintJSVersion : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FingerprintAlgorithm : Swift.Equatable {}
