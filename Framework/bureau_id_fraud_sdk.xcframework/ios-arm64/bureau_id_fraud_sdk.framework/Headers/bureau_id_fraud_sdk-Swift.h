@@ -305,6 +305,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class UIScrollView;
+
+SWIFT_CLASS("_TtC19bureau_id_fraud_sdk26BehavioralAnalyticsTracker")
+@interface BehavioralAnalyticsTracker : NSObject <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIGestureRecognizer;
+
+@interface BehavioralAnalyticsTracker (SWIFT_EXTENSION(bureau_id_fraud_sdk)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 SWIFT_CLASS("_TtC19bureau_id_fraud_sdk9BureauAPI")
 @interface BureauAPI : NSObject
@@ -330,7 +344,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BureauAPI * 
 
 
 @class NSCoder;
-@class UIScrollView;
 @class NSString;
 @class NSBundle;
 
@@ -341,7 +354,6 @@ SWIFT_CLASS("_TtC19bureau_id_fraud_sdk20UserBehaviourCapture") SWIFT_AVAILABILIT
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UIGestureRecognizer;
 @class UITouch;
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)

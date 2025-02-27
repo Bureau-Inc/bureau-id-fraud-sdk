@@ -11,6 +11,7 @@ import CommonCrypto
 import CoreGraphics
 import CoreLocation
 import CoreMotion
+import CoreTelephony
 import CryptoKit
 import Darwin
 import Foundation
@@ -60,6 +61,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public var fingerprintDelegate: (any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
   public var utilityDelegate: (any bureau_id_fraud_sdk.UtilityDelegate)?
+  public var behavioralAnalyticsDelegate: (any bureau_id_fraud_sdk.BehavioralAnalyticsDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
   public func configure(config: bureau_id_fraud_sdk.BureauConfig)
   public func startSubSession(_ subSessionID: Swift.String)
@@ -69,6 +71,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func setFlow(_ flow: Swift.String)
   public func insertBBInputChangeData(_ text: Swift.String, _ prevText: Swift.String, _ identifier: Swift.String)
   public func insertFocusChangeData(_ focusType: Swift.String, _ identifier: Swift.String)
+  public func getBehaviouralAnalytics(_ duration: Swift.Int, _ userId: Swift.String, attributes: [Swift.String : Any]? = nil)
   public func submit(onCompletion: ((Swift.Bool, bureau_id_fraud_sdk.BureauError?) -> Swift.Void)? = nil)
   @objc deinit
 }
@@ -105,6 +108,9 @@ extension bureau_id_fraud_sdk.LocalSignalDelegate {
 }
 public protocol UtilityDelegate : AnyObject {
   func getPayload(payload: Foundation.NSDictionary)
+}
+public protocol BehavioralAnalyticsDelegate : AnyObject {
+  func didCompleteBehaviouralAnalytics(analyticsData: Foundation.NSDictionary)
 }
 extension bureau_id_fraud_sdk.BureauAPI {
   public func enableRiskMonitoring(frequency: bureau_id_fraud_sdk.LocalRiskSignalFrequesncy, interval: Foundation.TimeInterval = 5)
@@ -248,6 +254,9 @@ public enum LocalRiskSignalFrequesncy {
 public protocol BehavioralBiometricsHelper {
   func getSessionId() -> Swift.String
 }
+@_hasMissingDesignatedInitializers public class MotionManager {
+  @objc deinit
+}
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
   public let children: [bureau_id_fraud_sdk.FingerprintTree]?
@@ -291,6 +300,14 @@ public enum FailedCheck : Swift.CaseIterable {
     get
   }
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class BehavioralAnalyticsTracker : ObjectiveC.NSObject, UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  @objc deinit
+}
+extension bureau_id_fraud_sdk.BehavioralAnalyticsTracker : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
 @_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
 public class BureauSecurityLib {
   public static func amIJailbroken() -> Swift.Bool
@@ -300,6 +317,8 @@ public class BureauSecurityLib {
   public static func amIReverseEngineered() -> Swift.Bool
   public static func amIReverseEngineeredWithFailedChecks() -> (reverseEngineered: Swift.Bool, failedChecks: [bureau_id_fraud_sdk.FailedCheckType])
   @objc deinit
+}
+public struct AnalyticsPayload {
 }
 public struct BureauConfig {
   public init(credentialID: Swift.String, eventId: Swift.String, environment: bureau_id_fraud_sdk.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
@@ -317,3 +336,4 @@ extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}
+extension bureau_id_fraud_sdk.BehavioralAnalyticsTracker : Swift.Sendable {}
