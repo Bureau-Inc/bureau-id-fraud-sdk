@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "bureau_id_fraud_sdk",
+    "printedName": "bureau_id_fraud_sdk",
     "children": [
       {
         "kind": "Import",
@@ -313,6 +313,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -492,6 +506,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -596,6 +626,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DeviceInfoProviding",
@@ -1928,6 +1972,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1987,6 +2045,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2175,6 +2249,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2265,6 +2353,22 @@
         "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2546,6 +2650,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2589,6 +2709,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2632,6 +2768,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2689,8 +2841,9 @@
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2820,6 +2973,7 @@
             "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC8clientID11environment07sessionI06userIdACSS_AA11EnvironmentOS2Stcfc",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2847,6 +3001,7 @@
             "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC05startG0yySSF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2874,6 +3029,7 @@
             "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC03setE2IDyySSF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2901,6 +3057,7 @@
             "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC7setFlowyySSF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2936,6 +3093,7 @@
             "objc_name": "scrollViewDidEndDragging:willDecelerate:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2971,6 +3129,7 @@
             "mangledName": "$s19bureau_id_fraud_sdk20UserBehaviourCaptureC04stopG0SDySSypGyF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3026,6 +3185,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3056,6 +3216,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3087,6 +3248,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3119,6 +3281,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3163,6 +3326,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3201,6 +3365,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3252,6 +3417,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3309,6 +3475,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3360,6 +3527,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -3374,6 +3542,7 @@
         "moduleName": "bureau_id_fraud_sdk",
         "intro_iOS": "13.0",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC",
@@ -3387,6 +3556,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3442,6 +3625,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3603,6 +3793,22 @@
         "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3801,6 +4007,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3964,6 +4184,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4025,6 +4259,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4118,6 +4368,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4674,6 +4940,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4718,7 +4998,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4982,7 +5278,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5092,6 +5404,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5140,6 +5468,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "FingerprinterInstanceProviding",
@@ -6425,6 +6767,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6527,6 +6885,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6756,6 +7130,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6804,6 +7192,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6844,7 +7248,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -7103,6 +7523,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7255,6 +7691,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7437,6 +7889,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7990,6 +8458,9 @@
             "moduleName": "bureau_id_fraud_sdk",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -8031,6 +8502,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8140,6 +8625,7 @@
             "objc_name": "scrollViewDidScroll:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -8168,6 +8654,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -8205,6 +8692,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -8217,6 +8705,7 @@
         "mangledName": "$s19bureau_id_fraud_sdk26BehavioralAnalyticsTrackerC",
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -8227,6 +8716,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8275,6 +8778,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -8545,7 +9055,23 @@
           "AccessControl",
           "Available"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -8577,6 +9103,22 @@
         "moduleName": "bureau_id_fraud_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8597,7 +9139,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(credentialID:eventId:environment:enableBehavioralBiometrics:userId:flow:enableDebugLog:)",
+            "printedName": "init(credentialID:environment:enableBehavioralBiometrics:userId:flow:enableDebugLog:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8610,21 +9152,6 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -8662,8 +9189,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19bureau_id_fraud_sdk12BureauConfigV12credentialID7eventId11environment26enableBehavioralBiometrics04userJ04flow0L8DebugLogACSS_SSSgAA11EnvironmentOSbS2SSbtcfc",
-            "mangledName": "$s19bureau_id_fraud_sdk12BureauConfigV12credentialID7eventId11environment26enableBehavioralBiometrics04userJ04flow0L8DebugLogACSS_SSSgAA11EnvironmentOSbS2SSbtcfc",
+            "usr": "s:19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0J8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
+            "mangledName": "$s19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0J8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "AccessControl"
@@ -8678,6 +9205,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8694,6 +9237,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9233,12 +9790,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -9271,6 +9822,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9481,6 +10046,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9641,6 +10220,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -9869,6 +10455,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10039,6 +10639,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -10116,7 +10723,9 @@
         "objc_name": "NSProcessInfo",
         "declAttributes": [
           "ObjC",
+          "SynthesizedProtocol",
           "NonSendable",
+          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -10126,6 +10735,27 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10188,6 +10818,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIDevice",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -10201,6 +10832,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10263,6 +10908,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIScreen",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -10276,6 +10922,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10382,6 +11042,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -10436,6 +11110,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -10545,76 +11226,6 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 263,
-      "length": 10,
-      "value": "\"cellular\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 294,
-      "length": 6,
-      "value": "\"wifi\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 7,
-      "value": "\"wired\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 354,
-      "length": 10,
-      "value": "\"loopback\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 386,
-      "length": 7,
-      "value": "\"other\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 11,
-      "value": "\"not found\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 6,
-      "value": "\"IPv4\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 6,
-      "value": "\"ipV6\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 540,
-      "length": 5,
-      "value": "\"en0\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
-      "kind": "StringLiteral",
       "offset": 487,
       "length": 6,
       "value": "\"IPv4\""
@@ -10667,6 +11278,34 @@
       "offset": 1097,
       "length": 18,
       "value": "\"ip_monitor_queue\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9744,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 9787,
+      "length": 6,
+      "value": "\"fork\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9958,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9984,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
@@ -10727,14 +11366,14 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 22320,
+      "offset": 22044,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 22821,
+      "offset": 22545,
       "length": 1,
       "value": "5"
     },
@@ -10831,13 +11470,6 @@
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
-      "kind": "StringLiteral",
-      "offset": 195,
-      "length": 20,
-      "value": "\"bureau_id_fraud_sdk.UserBehaviourCapture\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 21929,
       "length": 2,
@@ -10856,27 +11488,6 @@
       "offset": 329,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
-      "length": 6,
-      "value": "\"INFO\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1098,
-      "length": 9,
-      "value": "\"WARNING\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1129,
-      "length": 7,
-      "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
@@ -10935,13 +11546,6 @@
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventCaptureModel.swift",
-      "kind": "StringLiteral",
-      "offset": 139,
-      "length": 17,
-      "value": "\"bureau_id_fraud_sdk.EventCaptureModel\""
-    },
-    {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 225,
@@ -10989,188 +11593,6 @@
       "offset": 545,
       "length": 28,
       "value": "\"PayloadEncryptionCompleted\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 16,
-      "value": "\"SDKInitialized\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 264,
-      "length": 28,
-      "value": "\"SDKInitializationCompleted\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 17,
-      "value": "\"SDKSubmitCalled\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 375,
-      "length": 23,
-      "value": "\"EncryptAndSendRequest\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 17,
-      "value": "\"SetUserIDCalled\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 26,
-      "value": "\"PayloadEncryptionStarted\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 28,
-      "value": "\"PayloadEncryptionCompleted\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 9,
-      "value": "\"records\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 11,
-      "value": "\"eventName\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 717,
-      "length": 5,
-      "value": "\"key\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 745,
-      "length": 12,
-      "value": "\"properties\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 779,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 829,
-      "length": 28,
-      "value": "\"enableBehavioralBiometrics\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 875,
-      "length": 7,
-      "value": "\"isDev\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 902,
-      "length": 9,
-      "value": "\"eventId\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 936,
-      "length": 14,
-      "value": "\"credentialId\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 974,
-      "length": 13,
-      "value": "\"environment\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1010,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1051,
-      "length": 18,
-      "value": "\"suspiciousSignal\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1092,
-      "length": 12,
-      "value": "\"deviceData\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1123,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1152,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1188,
-      "length": 15,
-      "value": "\"appIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 11,
-      "value": "\"osVersion\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 11,
-      "value": "\"modelName\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
@@ -13368,7 +13790,7 @@
       "kind": "StringLiteral",
       "offset": 663,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.0.1\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
@@ -13588,46 +14010,11 @@
       "value": "\"callingEncryptionAndSendData\""
     },
     {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/SDKLoadTime.swift",
-      "kind": "StringLiteral",
-      "offset": 772,
-      "length": 11,
-      "value": "\"sdkLoaded\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/SDKLoadTime.swift",
-      "kind": "StringLiteral",
-      "offset": 806,
-      "length": 13,
-      "value": "\"sdkInitDone\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/SDKLoadTime.swift",
-      "kind": "StringLiteral",
-      "offset": 844,
-      "length": 14,
-      "value": "\"calledSubmit\""
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/SDKLoadTime.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 30,
-      "value": "\"callingEncryptionAndSendData\""
-    },
-    {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",
       "kind": "BooleanLiteral",
       "offset": 474,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Security\/SSLPinningManager.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 17,
-      "value": "\"bureau_id_fraud_sdk.SSLPinningManager\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/RiskAppDetector.swift",
@@ -13765,28 +14152,28 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 581,
+      "offset": 557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 581,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 651,
+      "offset": 627,
       "length": 5,
       "value": "false"
     }
