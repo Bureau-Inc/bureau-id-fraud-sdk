@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name bureau_id_fraud_sdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name bureau_id_fraud_sdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -56,7 +56,7 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func getDeviceInfo() async -> bureau_id_fraud_sdk.DeviceInfo
   public func getDeviceInfo(_ completion: @escaping (bureau_id_fraud_sdk.DeviceInfo) -> Swift.Void)
 }
-public typealias CompletionBlock = ((_ result: Swift.Bool, _ eventID: Swift.String, _ error: bureau_id_fraud_sdk.BureauError?) -> Swift.Void)
+public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.String, _ error: bureau_id_fraud_sdk.BureauError?) -> Swift.Void
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class BureauAPI : ObjectiveC.NSObject {
   public var delegate: UIKit.UIViewController?
   public var fingerprintDelegate: (any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?
@@ -292,11 +292,11 @@ public enum FailedCheck : Swift.CaseIterable {
   case pSelectFlag
   case suspiciousObjCClasses
   public static func == (a: bureau_id_fraud_sdk.FailedCheck, b: bureau_id_fraud_sdk.FailedCheck) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [bureau_id_fraud_sdk.FailedCheck]
   nonisolated public static var allCases: [bureau_id_fraud_sdk.FailedCheck] {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
