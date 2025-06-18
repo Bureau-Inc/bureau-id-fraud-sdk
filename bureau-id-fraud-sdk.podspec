@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'bureau-id-fraud-sdk'
-  spec.version          = '2.0.2'
+  spec.version          = '2.0.3'
   
   spec.summary          = 'Identify and prevent fraudulent activity accurately and immediately.'
   spec.description      = 'Device Fingerprinting helps you understand your user’s unique harware with their device data & processes them in backend to generate a fingerprint id.'
@@ -16,6 +16,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   
   spec.dependency 'Sentry'
-  spec.dependency 'SwiftProtobuf', '1.26.0'
+  spec.dependency 'SwiftProtobuf', '>= 1.20.0', '< 2.0'
+
+
   
 end
