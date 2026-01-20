@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name bureau_id_fraud_sdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -30,6 +30,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import zlib
 public enum BureauError : Swift.Error {
   case eventIDEmpty
   case eaKeysEmpty
@@ -40,9 +41,11 @@ public enum BureauError : Swift.Error {
   case unknown(statusCode: Swift.Int)
 }
 extension bureau_id_fraud_sdk.BureauError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public protocol DeviceInfoProviding {
   @available(iOS 13.0, tvOS 13.0, *)
@@ -72,14 +75,19 @@ public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.Strin
   public func setUserID(_ userId: Swift.String)
   public func setCustomUrl(_ customUrl: Swift.String)
   public func setFlow(_ flow: Swift.String)
+  public func setMetaInfo(_ metaInfo: [Swift.String : Swift.String])
   public func insertBBInputChangeData(_ text: Swift.String, _ prevText: Swift.String, _ identifier: Swift.String)
   public func insertFocusChangeData(_ focusType: Swift.String, _ identifier: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getBehaviouralAnalytics(_ duration: Swift.Int, _ userId: Swift.String, attributes: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func submit(onCompletion: bureau_id_fraud_sdk.CompletionBlock? = nil)
+  #endif
   @objc deinit
 }
 extension bureau_id_fraud_sdk.BureauAPI : CoreLocation.CLLocationManagerDelegate {
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
 }
 public struct CredentialBuilder {
 }
@@ -93,7 +101,9 @@ public enum Environment {
   }
 }
 public protocol PrismFingerPrintDelegate : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func onFinished(eventID: Swift.String?, data: [Swift.String : Any]?, insights: bureau_id_fraud_sdk.Insights?)
+  #endif
 }
 public protocol LocalSignalDelegate : AnyObject {
   func deviceLocation(isMocked: Swift.Bool)
@@ -121,6 +131,7 @@ extension bureau_id_fraud_sdk.BureauAPI {
   public func setLocalRiskSignalMonitoringFrequesncy(interval: Foundation.TimeInterval = 5)
   public func startMonitoringRiskSignals()
   public func setLocalRiskSignalMonitoringFrequesncy(sec: Foundation.TimeInterval)
+  public func isFeatureEnabled(_ key: Swift.String) -> Swift.Bool
 }
 extension bureau_id_fraud_sdk.BureauAPI {
   public func isSDKInitializationSuccess() -> Swift.Bool
@@ -150,14 +161,26 @@ extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UIGestureRecognizerDe
 }
 @available(iOS 13.0, *)
 extension bureau_id_fraud_sdk.UserBehaviourCapture : Foundation.URLSessionWebSocketDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
 }
 public protocol PrismBehaviouralDelegate : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func onSuccessCallBack(data: [Swift.String : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func onFailureCallBack(data: [Swift.String : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func onStopSessionCallBack(data: [Swift.String : Any]?)
+  #endif
 }
 public enum FingerprintJSVersion {
   case v1
@@ -203,6 +226,7 @@ public struct Insights : Swift.Codable {
   public let sessionId: Swift.String
   public let createdAt: Swift.Int64
   public let confidenceScore: Swift.Double?
+  public let interEventGPSVelocity: Swift.Double?
   public let voiceCallDetected: Swift.Bool?
   public let riskScore: Swift.Int
   public let riskLevel: Swift.String
@@ -220,6 +244,8 @@ public struct Insights : Swift.Codable {
   public let requestId: Swift.String
   public let timestamp: Swift.Int64?
   public let statusCode: Swift.Int?
+  public let deviceTrustScore: Swift.Int?
+  public let mitmAttackDetected: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -255,7 +281,9 @@ public struct IPSecurity : Swift.Codable {
     case info
     case warning
     case error
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -267,15 +295,23 @@ public struct IPSecurity : Swift.Codable {
   @objc deinit
 }
 extension bureau_id_fraud_sdk.Fingerprinter {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDeviceId(_ completion: @escaping (Swift.String?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFingerprint(_ completion: @escaping (Swift.String?) -> Swift.Void)
+  #endif
   public func getFingerprintTree(_ completion: @escaping (bureau_id_fraud_sdk.FingerprintTree) -> Swift.Void)
 }
 @available(iOS 13.0, tvOS 13.0, *)
 extension bureau_id_fraud_sdk.Fingerprinter {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDeviceId() async -> Swift.String?
+  #endif
   public func getFingerprintTree() async -> bureau_id_fraud_sdk.FingerprintTree
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFingerprint() async -> Swift.String?
+  #endif
 }
 public protocol FingerprinterInstanceProviding {
   static func getInstance(_ configuration: bureau_id_fraud_sdk.Configuration) -> bureau_id_fraud_sdk.Fingerprinter
@@ -331,6 +367,16 @@ public struct FingerprintTree {
   public var fingerprint: Swift.String {
     get
   }
+}
+public struct GzipCompressor {
+  public enum Error : Swift.Error {
+    case deflateInitFailed(code: Swift.Int32)
+    case deflateFailed(code: Swift.Int32)
+    case fileReadFailed
+    case fileWriteFailed
+    case invalidInput
+  }
+  public static func compress(data: Foundation.Data, level: Swift.Int32 = Z_DEFAULT_COMPRESSION) throws -> Foundation.Data
 }
 public enum DeviceInfoValueType {
   case category
