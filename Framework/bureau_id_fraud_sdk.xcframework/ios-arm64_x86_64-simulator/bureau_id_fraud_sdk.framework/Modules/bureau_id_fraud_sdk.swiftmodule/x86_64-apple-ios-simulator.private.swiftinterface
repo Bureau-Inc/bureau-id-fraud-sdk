@@ -15,7 +15,6 @@ import CoreTelephony
 import CryptoKit
 import Darwin
 import Foundation
-import JavaScriptCore
 import LocalAuthentication
 import MachO
 import MessageUI
@@ -23,7 +22,6 @@ import Network
 import ObjectiveC
 import Security
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
@@ -63,26 +61,19 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
 }
 public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.String, _ error: bureau_id_fraud_sdk.BureauError?, _ insights: bureau_id_fraud_sdk.Insights?) -> Swift.Void
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class BureauAPI : ObjectiveC.NSObject {
-  public var delegate: UIKit.UIViewController?
   public var fingerprintDelegate: (any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
   public var utilityDelegate: (any bureau_id_fraud_sdk.UtilityDelegate)?
-  public var behavioralAnalyticsDelegate: (any bureau_id_fraud_sdk.BehavioralAnalyticsDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
   public func configure(config: bureau_id_fraud_sdk.BureauConfig)
-  public func startSubSession(_ subSessionID: Swift.String)
-  public func stopSubSession()
   public func setUserID(_ userId: Swift.String)
-  public func setCustomUrl(_ customUrl: Swift.String)
   public func setFlow(_ flow: Swift.String)
   public func setMetaInfo(_ metaInfo: [Swift.String : Swift.String])
-  public func insertBBInputChangeData(_ text: Swift.String, _ prevText: Swift.String, _ identifier: Swift.String)
-  public func insertFocusChangeData(_ focusType: Swift.String, _ identifier: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func getBehaviouralAnalytics(_ duration: Swift.Int, _ userId: Swift.String, attributes: [Swift.String : Any]? = nil)
-  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func submit(onCompletion: bureau_id_fraud_sdk.CompletionBlock? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func asyncSubmit(onCompletion: bureau_id_fraud_sdk.CompletionBlock? = nil) -> Swift.String
   #endif
   @objc deinit
 }
@@ -136,51 +127,6 @@ extension bureau_id_fraud_sdk.BureauAPI {
 extension bureau_id_fraud_sdk.BureauAPI {
   public func isSDKInitializationSuccess() -> Swift.Bool
   public func resetSDKInitialization()
-}
-@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
-@objc @_Concurrency.MainActor @preconcurrency public class UserBehaviourCapture : UIKit.UIViewController, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor @preconcurrency public var prismBehaviouralDelegate: (any bureau_id_fraud_sdk.PrismBehaviouralDelegate)?
-  @_Concurrency.MainActor @preconcurrency public init(clientID: Swift.String, environment: bureau_id_fraud_sdk.Environment, sessionID: Swift.String, userId: Swift.String = "")
-  @_Concurrency.MainActor @preconcurrency public func startCapture(_ subSessionID: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func setUserID(_ userId: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func setFlow(_ flow: Swift.String)
-  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency public func stopCapture() -> [Swift.String : Any]
-  @objc deinit
-}
-@available(iOS 13.0, *)
-extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
-}
-@available(iOS 13.0, *)
-extension bureau_id_fraud_sdk.UserBehaviourCapture : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
-}
-@available(iOS 13.0, *)
-extension bureau_id_fraud_sdk.UserBehaviourCapture : Foundation.URLSessionWebSocketDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
-  #endif
-}
-public protocol PrismBehaviouralDelegate : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  func onSuccessCallBack(data: [Swift.String : Any]?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  func onFailureCallBack(data: [Swift.String : Any]?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  func onStopSessionCallBack(data: [Swift.String : Any]?)
-  #endif
 }
 public enum FingerprintJSVersion {
   case v1
@@ -358,9 +304,6 @@ public enum LocalRiskSignalFrequesncy {
 public protocol BehavioralBiometricsHelper {
   func getSessionId() -> Swift.String
 }
-@_hasMissingDesignatedInitializers public class MotionManager {
-  @objc deinit
-}
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
   public let children: [bureau_id_fraud_sdk.FingerprintTree]?
@@ -414,14 +357,6 @@ public enum FailedCheck : Swift.CaseIterable {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class BehavioralAnalyticsTracker : ObjectiveC.NSObject, UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
-  @objc deinit
-}
-extension bureau_id_fraud_sdk.BehavioralAnalyticsTracker : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-}
 @_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
 public class BureauSecurityLib {
   public static func amIJailbroken() -> Swift.Bool
@@ -431,8 +366,6 @@ public class BureauSecurityLib {
   public static func amIReverseEngineered() -> Swift.Bool
   public static func amIReverseEngineeredWithFailedChecks() -> (reverseEngineered: Swift.Bool, failedChecks: [bureau_id_fraud_sdk.FailedCheckType])
   @objc deinit
-}
-public struct AnalyticsPayload {
 }
 public struct BureauConfig {
   public init(credentialID: Swift.String, environment: bureau_id_fraud_sdk.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
@@ -450,4 +383,3 @@ extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}
-extension bureau_id_fraud_sdk.BehavioralAnalyticsTracker : Swift.Sendable {}

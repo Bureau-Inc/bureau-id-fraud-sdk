@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/bureau_id_fraud_sdk-Swift.h</key>
 		<data>
-		zG7vrBNTAGRX1K+VE4eKEIOPfjg=
+		QFZjIoeGRmta1Dt+NqTcHodkeq4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tkmpa15CoHRbpJFLxvVotI0Kj4A=
+		ZWTfB3UfJjySOLpHMk0yQbDXOMI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ak3d3BX7XEuw45KiPlezBlfbpck=
+		WdmjZUBmkBChK47qPbZ6i62kDvg=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ak3d3BX7XEuw45KiPlezBlfbpck=
+		WdmjZUBmkBChK47qPbZ6i62kDvg=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TOxCWjGRsgHnD7uqtZFjzVirYsE=
+		1hQoW0BdpyM/HdGW4Qa6LLlrEEc=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tkmpa15CoHRbpJFLxvVotI0Kj4A=
+		ZWTfB3UfJjySOLpHMk0yQbDXOMI=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O1643TZwnAHa4chPYN7vw+p5xe0=
+		Myke0zgbmP1exvbFySPCKNavH3Q=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O1643TZwnAHa4chPYN7vw+p5xe0=
+		Myke0zgbmP1exvbFySPCKNavH3Q=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NzkWPlvxmzCl0R+zvqS6LorLGqU=
+		PiVARVQchst2MBUvqtCIFnF+prE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,21 +78,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dCExFDMGHhPxwi1z1BPWMU/Elq7eGhSFDUz/XL01+ZY=
+			N1tF1ShPJV2uQQQuy+i/PE0D0N2ybBYoMAqAn3H0Tlc=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uWXDzRZmNIBbl2fz1cs9bpxQoRjyGuia7ufvOintjyQ=
+			WfaeHSmJKW1Z6SnY2F27E2L2EmXs7awGTSOQL3hOPj4=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AvO7O2s+ca3kwgvYWEV/xBNGJGyvj6vLP3xvX2ufBLo=
+			Mt93eTvAE5DkYthfAYnUDx4hSO2r832VsuMbvS+GK+k=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AvO7O2s+ca3kwgvYWEV/xBNGJGyvj6vLP3xvX2ufBLo=
+			Mt93eTvAE5DkYthfAYnUDx4hSO2r832VsuMbvS+GK+k=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTgYlTZzYJ5ZnnKNK6DNJa426HLbKoLlWRqQPjWftEY=
+			JQqAuuJG888XJgYZhrdjT2f/jonrma0mhrFMaagKZ40=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uWXDzRZmNIBbl2fz1cs9bpxQoRjyGuia7ufvOintjyQ=
+			WfaeHSmJKW1Z6SnY2F27E2L2EmXs7awGTSOQL3hOPj4=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IaJEoeMwQoFdLTmw/N0QkoDdu+A+hT0TqKqv1caYW0E=
+			nTqk45AHdq+nzKpTIBEcBQUlIv1ET0ZmN/d/QcEhi0g=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IaJEoeMwQoFdLTmw/N0QkoDdu+A+hT0TqKqv1caYW0E=
+			nTqk45AHdq+nzKpTIBEcBQUlIv1ET0ZmN/d/QcEhi0g=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vOtLVTqhF4cBg5ob0gkoNczu2r7YqJtjt8X9I5dHUWg=
+			HjxIYfR3Z7Yg0ePZPOF9BMqFsZuLut/8nTlCKe5VfVw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
