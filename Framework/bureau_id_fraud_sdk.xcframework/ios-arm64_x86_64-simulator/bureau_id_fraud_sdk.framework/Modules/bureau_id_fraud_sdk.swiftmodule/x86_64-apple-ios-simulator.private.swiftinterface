@@ -63,7 +63,6 @@ public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.Strin
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class BureauAPI : ObjectiveC.NSObject {
   public var fingerprintDelegate: (any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
-  public var utilityDelegate: (any bureau_id_fraud_sdk.UtilityDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
   public func configure(config: bureau_id_fraud_sdk.BureauConfig)
   public func setUserID(_ userId: Swift.String)
@@ -74,6 +73,9 @@ public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.Strin
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func asyncSubmit(onCompletion: bureau_id_fraud_sdk.CompletionBlock? = nil) -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getPayload(completion: @escaping (_ eventId: Swift.String, _ payload: [Swift.String : Any]?, _ error: bureau_id_fraud_sdk.GetPayloadError?) -> Swift.Void)
   #endif
   @objc deinit
 }
@@ -109,9 +111,6 @@ extension bureau_id_fraud_sdk.LocalSignalDelegate {
   public func appDebugMode(enable: Swift.Bool)
   public func isVPNEnable(enable: Swift.Bool)
   public func voiceCall(isDetected: Swift.Bool)
-}
-public protocol UtilityDelegate : AnyObject {
-  func getPayload(payload: Foundation.NSDictionary)
 }
 public protocol BehavioralAnalyticsDelegate : AnyObject {
   func didCompleteBehaviouralAnalytics(analyticsData: Foundation.NSDictionary)
@@ -304,6 +303,16 @@ public enum LocalRiskSignalFrequesncy {
 public protocol BehavioralBiometricsHelper {
   func getSessionId() -> Swift.String
 }
+public enum GetPayloadError {
+  case encryptionFailed
+  case sdkNotInitialized
+  case unknown
+  public static func == (a: bureau_id_fraud_sdk.GetPayloadError, b: bureau_id_fraud_sdk.GetPayloadError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
   public let children: [bureau_id_fraud_sdk.FingerprintTree]?
@@ -381,5 +390,7 @@ extension bureau_id_fraud_sdk.DebugLogger.LogLevel : Swift.Hashable {}
 extension bureau_id_fraud_sdk.DebugLogger.LogLevel : Swift.RawRepresentable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
+extension bureau_id_fraud_sdk.GetPayloadError : Swift.Equatable {}
+extension bureau_id_fraud_sdk.GetPayloadError : Swift.Hashable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}

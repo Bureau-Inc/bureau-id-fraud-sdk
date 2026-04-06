@@ -1088,116 +1088,6 @@
           },
           {
             "kind": "Var",
-            "name": "utilityDelegate",
-            "printedName": "utilityDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any bureau_id_fraud_sdk.UtilityDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UtilityDelegate",
-                    "printedName": "any bureau_id_fraud_sdk.UtilityDelegate",
-                    "usr": "s:19bureau_id_fraud_sdk15UtilityDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvp",
-            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvp",
-            "moduleName": "bureau_id_fraud_sdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any bureau_id_fraud_sdk.UtilityDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UtilityDelegate",
-                        "printedName": "any bureau_id_fraud_sdk.UtilityDelegate",
-                        "usr": "s:19bureau_id_fraud_sdk15UtilityDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvg",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvg",
-                "moduleName": "bureau_id_fraud_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any bureau_id_fraud_sdk.UtilityDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UtilityDelegate",
-                        "printedName": "any bureau_id_fraud_sdk.UtilityDelegate",
-                        "usr": "s:19bureau_id_fraud_sdk15UtilityDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvs",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvs",
-                "moduleName": "bureau_id_fraud_sdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvM",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC15utilityDelegateAA07UtilityH0_pSgvM",
-                "moduleName": "bureau_id_fraud_sdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "shared",
             "printedName": "shared",
             "children": [
@@ -1538,6 +1428,92 @@
             "declKind": "Func",
             "usr": "s:19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
             "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPayload",
+            "printedName": "getPayload(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, [Swift.String : Any]?, bureau_id_fraud_sdk.GetPayloadError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, [Swift.String : Any]?, bureau_id_fraud_sdk.GetPayloadError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "bureau_id_fraud_sdk.GetPayloadError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetPayloadError",
+                            "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC10getPayload10completionyySS_SDySSypGSgAA03GetH5ErrorOSgtc_tF",
+            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC10getPayload10completionyySS_SDySSypGSgAA03GetH5ErrorOSgtc_tF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "AccessControl"
@@ -2486,65 +2462,6 @@
         "declKind": "Protocol",
         "usr": "s:19bureau_id_fraud_sdk19LocalSignalDelegateP",
         "mangledName": "$s19bureau_id_fraud_sdk19LocalSignalDelegateP",
-        "moduleName": "bureau_id_fraud_sdk",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UtilityDelegate",
-        "printedName": "UtilityDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getPayload",
-            "printedName": "getPayload(payload:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSDictionary",
-                "printedName": "Foundation.NSDictionary",
-                "usr": "c:objc(cs)NSDictionary"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19bureau_id_fraud_sdk15UtilityDelegateP10getPayload7payloadySo12NSDictionaryC_tF",
-            "mangledName": "$s19bureau_id_fraud_sdk15UtilityDelegateP10getPayload7payloadySo12NSDictionaryC_tF",
-            "moduleName": "bureau_id_fraud_sdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : bureau_id_fraud_sdk.UtilityDelegate>",
-            "sugared_genericSig": "<Self where Self : bureau_id_fraud_sdk.UtilityDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:19bureau_id_fraud_sdk15UtilityDelegateP",
-        "mangledName": "$s19bureau_id_fraud_sdk15UtilityDelegateP",
         "moduleName": "bureau_id_fraud_sdk",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -9115,6 +9032,257 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "GetPayloadError",
+        "printedName": "GetPayloadError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "encryptionFailed",
+            "printedName": "encryptionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bureau_id_fraud_sdk.GetPayloadError.Type) -> bureau_id_fraud_sdk.GetPayloadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetPayloadError",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                    "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetPayloadError",
+                        "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                        "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO16encryptionFailedyA2CmF",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO16encryptionFailedyA2CmF",
+            "moduleName": "bureau_id_fraud_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkNotInitialized",
+            "printedName": "sdkNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bureau_id_fraud_sdk.GetPayloadError.Type) -> bureau_id_fraud_sdk.GetPayloadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetPayloadError",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                    "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetPayloadError",
+                        "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                        "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO0D14NotInitializedyA2CmF",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO0D14NotInitializedyA2CmF",
+            "moduleName": "bureau_id_fraud_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bureau_id_fraud_sdk.GetPayloadError.Type) -> bureau_id_fraud_sdk.GetPayloadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetPayloadError",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                    "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bureau_id_fraud_sdk.GetPayloadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetPayloadError",
+                        "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                        "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO7unknownyA2CmF",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO7unknownyA2CmF",
+            "moduleName": "bureau_id_fraud_sdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetPayloadError",
+                "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetPayloadError",
+                "printedName": "bureau_id_fraud_sdk.GetPayloadError",
+                "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "bureau_id_fraud_sdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO9hashValueSivp",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO9hashValueSivp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO9hashValueSivg",
+                "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO9hashValueSivg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "bureau_id_fraud_sdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19bureau_id_fraud_sdk15GetPayloadErrorO",
+        "mangledName": "$s19bureau_id_fraud_sdk15GetPayloadErrorO",
+        "moduleName": "bureau_id_fraud_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -13427,49 +13595,49 @@
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 1235,
+      "offset": 1186,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1446,
+      "offset": 1397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1563,
+      "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1630,
       "length": 29,
       "value": "\"com.bureau.sdk.submit-state\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1747,
+      "offset": 1698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 29733,
+      "offset": 35532,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 30234,
+      "offset": 36033,
       "length": 1,
       "value": "5"
     },
@@ -14017,7 +14185,7 @@
       "kind": "StringLiteral",
       "offset": 663,
       "length": 7,
-      "value": "\"3.0.0\""
+      "value": "\"2.0.6\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
