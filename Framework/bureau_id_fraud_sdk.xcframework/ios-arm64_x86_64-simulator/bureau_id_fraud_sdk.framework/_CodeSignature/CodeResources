@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LcO13yLj99LmiEyy3eFgt6EuIks=
+		egqRTx7ujyE6MacpGMGztohAnTs=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VfORFuSwHv60Nk+b5I5U78mFe6E=
+		2wu2Exm7p4o/DeAHggY5xljQkQk=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LcO13yLj99LmiEyy3eFgt6EuIks=
+		egqRTx7ujyE6MacpGMGztohAnTs=
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5CjNWd4KmB20qt0YJAKXE07gRzM=
+		VFHdTlkAQ0auEFfptdx1TbzZQsk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9pc4BsmWLy/FvwdGfW0d4UtxaR90hpfB6fHHD2cV6jo=
+			ErGhJMGvkmuR9kwUr8PqUN8odDeH29M1qmaYZHP+FZE=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRhaedeR7439pYGZ5raqlGeB3LPeE1zI2yY84cO3g6k=
+			+amPbJSL6hccCJK+c5FQD/FaWZJYGnrxqNUyLdK/eR4=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9pc4BsmWLy/FvwdGfW0d4UtxaR90hpfB6fHHD2cV6jo=
+			ErGhJMGvkmuR9kwUr8PqUN8odDeH29M1qmaYZHP+FZE=
 			</data>
 		</dict>
 		<key>Modules/bureau_id_fraud_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SU6VUzJi4RcxDgNYMyoOXrrOE3C0EUz9O5yjovqqFqw=
+			mvoVz2qIkb8KJ/Ry95XjlB6cl8l0IbbaujBZMV6defw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
