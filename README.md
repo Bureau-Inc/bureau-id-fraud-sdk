@@ -2,26 +2,45 @@
 
 ### Step 1 - Add Dependency
 
-1. SDK is available through [CocoaPods](https://cocoapods.org/pods/bureau-id-fraud-sdk). To install it, simply add the following line to your Podfile:
+#### Swift Package Manager
+
+1. In Xcode, go to **File → Add Package Dependencies...**
+2. Enter the repository URL:
+   ```
+   https://github.com/Bureau-Inc/bureau-id-fraud-sdk.git
+   ```
+3. Select the version rule (e.g. **Up to Next Major** from `3.0.2`)
+4. Add `bureau-id-fraud-sdk` to your target
+
+Or add it to your `Package.swift` dependencies:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Bureau-Inc/bureau-id-fraud-sdk.git", from: "3.0.2")
+]
+```
+
+Then add the product to your target:
+
+```swift
+.target(
+    name: "YourApp",
+    dependencies: [
+        .product(name: "bureau-id-fraud-sdk", package: "bureau-id-fraud-sdk")
+    ]
+)
+```
+
+#### CocoaPods
+
+SDK is also available through [CocoaPods](https://cocoapods.org/pods/bureau-id-fraud-sdk). To install it, simply add the following line to your Podfile:
 
 ```ruby
 # Podfile
 pod 'bureau-id-fraud-sdk'
-
-#Add below lines to end of your pod file
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      if target.name == "Sentry" || target.name == "SwiftProtobuf" then
-        config.build_settings["BUILD_LIBRARY_FOR_DISTRIBUTION"] = 'YES'
-      end
-    end
-  end
-end
-
 ```
 
-2. "import bureau_id_fraud_sdk" in your UIViewcontroller
+2. `import bureau_id_fraud_sdk` in your UIViewController
 3. Info.plist -> Add below properties
    - “NSUserTrackingUsageDescription”
    - “NSLocationAlwaysAndWhenInUseUsageDescription”
