@@ -313,6 +313,17 @@ public enum GetPayloadError {
     get
   }
 }
+public enum APIVersion : Swift.String {
+  case v112
+  case v114
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
   public let children: [bureau_id_fraud_sdk.FingerprintTree]?
@@ -377,7 +388,7 @@ public class BureauSecurityLib {
   @objc deinit
 }
 public struct BureauConfig {
-  public init(credentialID: Swift.String, environment: bureau_id_fraud_sdk.Environment, enableBehavioralBiometrics: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
+  public init(credentialID: Swift.String, environment: bureau_id_fraud_sdk.Environment, enableBehavioralBiometrics: Swift.Bool = false, enableSmartInsightFetch: Swift.Bool = false, userId: Swift.String = "", flow: Swift.String = "", enableDebugLog: Swift.Bool = false)
 }
 extension bureau_id_fraud_sdk.Environment : Swift.Equatable {}
 extension bureau_id_fraud_sdk.Environment : Swift.Hashable {}
@@ -392,5 +403,8 @@ extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
 extension bureau_id_fraud_sdk.GetPayloadError : Swift.Equatable {}
 extension bureau_id_fraud_sdk.GetPayloadError : Swift.Hashable {}
+extension bureau_id_fraud_sdk.APIVersion : Swift.Equatable {}
+extension bureau_id_fraud_sdk.APIVersion : Swift.Hashable {}
+extension bureau_id_fraud_sdk.APIVersion : Swift.RawRepresentable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}

@@ -9283,6 +9283,222 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "APIVersion",
+        "printedName": "APIVersion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "v112",
+            "printedName": "v112",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bureau_id_fraud_sdk.APIVersion.Type) -> bureau_id_fraud_sdk.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "bureau_id_fraud_sdk.APIVersion",
+                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bureau_id_fraud_sdk.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "bureau_id_fraud_sdk.APIVersion",
+                        "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19bureau_id_fraud_sdk10APIVersionO4v112yA2CmF",
+            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO4v112yA2CmF",
+            "moduleName": "bureau_id_fraud_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "v114",
+            "printedName": "v114",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(bureau_id_fraud_sdk.APIVersion.Type) -> bureau_id_fraud_sdk.APIVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "bureau_id_fraud_sdk.APIVersion",
+                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "bureau_id_fraud_sdk.APIVersion.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIVersion",
+                        "printedName": "bureau_id_fraud_sdk.APIVersion",
+                        "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19bureau_id_fraud_sdk10APIVersionO4v114yA2CmF",
+            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO4v114yA2CmF",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "bureau_id_fraud_sdk.APIVersion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIVersion",
+                    "printedName": "bureau_id_fraud_sdk.APIVersion",
+                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueACSgSS_tcfc",
+            "moduleName": "bureau_id_fraud_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueSSvp",
+            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueSSvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueSSvg",
+                "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueSSvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19bureau_id_fraud_sdk10APIVersionO",
+        "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO",
+        "moduleName": "bureau_id_fraud_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -11275,7 +11491,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(credentialID:environment:enableBehavioralBiometrics:userId:flow:enableDebugLog:)",
+            "printedName": "init(credentialID:environment:enableBehavioralBiometrics:enableSmartInsightFetch:userId:flow:enableDebugLog:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11294,6 +11510,13 @@
                 "name": "Environment",
                 "printedName": "bureau_id_fraud_sdk.Environment",
                 "usr": "s:19bureau_id_fraud_sdk11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -11325,8 +11548,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0J8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
-            "mangledName": "$s19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics6userId4flow0J8DebugLogACSS_AA11EnvironmentOSbS2SSbtcfc",
+            "usr": "s:19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics0J17SmartInsightFetch6userId4flow0J8DebugLogACSS_AA11EnvironmentOS2bS2SSbtcfc",
+            "mangledName": "$s19bureau_id_fraud_sdk12BureauConfigV12credentialID11environment26enableBehavioralBiometrics0J17SmartInsightFetch6userId4flow0J8DebugLogACSS_AA11EnvironmentOS2bS2SSbtcfc",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "AccessControl"
@@ -13397,1031 +13620,1066 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 19,
       "value": "\"SDK_REMOTE_CONFIG\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 30,
       "value": "\"SDK_REMOTE_CONFIG_FETCHED_AT\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "StringLiteral",
       "offset": 351,
       "length": 76,
       "value": "\"v1\/deviceService\/config?platform=ios&sdkVersion=\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "BooleanLiteral",
       "offset": 519,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BackendConfigManager.swift",
       "kind": "Dictionary",
       "offset": 4029,
       "length": 263,
       "value": "[(\"aii\", false), (\"ibe\", true), (\"iadce\", true), (\"igdce\", true), (\"ialdce\", true)]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/WifiDetailManager.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/WifiDetailManager.swift",
       "kind": "BooleanLiteral",
       "offset": 240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 10,
       "value": "\"cellular\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 294,
       "length": 6,
       "value": "\"wifi\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 7,
       "value": "\"wired\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 10,
       "value": "\"loopback\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 7,
       "value": "\"other\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 11,
       "value": "\"not found\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 6,
       "value": "\"IPv4\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 6,
       "value": "\"ipV6\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 5,
       "value": "\"en0\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "Array",
       "offset": 732,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 804,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPMonitor.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 18,
       "value": "\"ip_monitor_queue\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
       "kind": "IntegerLiteral",
       "offset": 9744,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
       "kind": "StringLiteral",
       "offset": 9787,
       "length": 6,
       "value": "\"fork\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
       "kind": "IntegerLiteral",
       "offset": 9958,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/HookingDetect\/JailbreakChecker.swift",
       "kind": "IntegerLiteral",
       "offset": 9984,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
       "offset": 721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
       "offset": 837,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
       "offset": 890,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
       "offset": 1186,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
       "offset": 1397,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
       "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
       "offset": 1630,
       "length": 29,
       "value": "\"com.bureau.sdk.submit-state\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
       "offset": 1698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1793,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 35713,
+      "offset": 36847,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauAPI.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 36214,
+      "offset": 37348,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 440,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 496,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 553,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 665,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "Array",
       "offset": 727,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
       "offset": 786,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
       "offset": 839,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "FloatLiteral",
       "offset": 924,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/UserBehaviourCapture.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 28,
       "value": "\"com.bureau.behavioral.data\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppInstallUpdateTracker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppInstallUpdateTracker.swift",
       "kind": "StringLiteral",
       "offset": 503,
       "length": 31,
       "value": "\"id.bureau.lastKnownAppVersion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppInstallUpdateTracker.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppInstallUpdateTracker.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 31,
       "value": "\"id.bureau.lastUpdateTimestamp\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Common\/Storage\/KeychainIdentifierStorage.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Common\/Storage\/KeychainIdentifierStorage.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 28,
       "value": "\"com.fingerprintjs.keychain\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1724,
       "length": 13,
       "value": "\"GPSLocation\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1756,
       "length": 4,
       "value": "\"IP\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1783,
       "length": 8,
       "value": "\"IPType\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1818,
       "length": 12,
       "value": "\"IPLocation\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1857,
       "length": 12,
       "value": "\"IPSecurity\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 1888,
       "length": 4,
       "value": "\"OS\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Model\/Insights.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Model\/Insights.swift",
       "kind": "StringLiteral",
       "offset": 3525,
       "length": 5,
       "value": "\"VPN\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 329,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1750,
       "length": 5,
       "value": "\"VAR\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1776,
       "length": 5,
       "value": "\"var\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1802,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1860,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/LocalLogs\/LocalLogger.swift",
       "kind": "StringLiteral",
       "offset": 1886,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 16,
       "value": "\"SDKInitialized\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 28,
       "value": "\"SDKInitializationCompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 17,
       "value": "\"SDKSubmitCalled\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 22,
       "value": "\"CollectingDeviceData\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 494,
       "length": 27,
       "value": "\"CollectingLocationAndMeta\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 17,
       "value": "\"SetUserIDCalled\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 26,
       "value": "\"PayloadEncryptionStarted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 28,
       "value": "\"PayloadEncryptionCompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 745,
       "length": 28,
       "value": "\"BehavioralAnalyticsStarted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 814,
       "length": 30,
       "value": "\"BehavioralAnalyticsCompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 934,
       "length": 26,
       "value": "\"RemoteConfigFetchStarted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 999,
       "length": 28,
       "value": "\"RemoteConfigFetchCompleted\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1063,
       "length": 25,
       "value": "\"RemoteConfigFetchFailed\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 13,
       "value": "\"ConfigSaved\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1155,
       "length": 19,
       "value": "\"ConfigFlagChecked\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 20,
       "value": "\"ConfigExpiredCheck\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1281,
       "length": 9,
       "value": "\"records\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1337,
       "length": 11,
       "value": "\"eventName\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1397,
       "length": 12,
       "value": "\"properties\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1431,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1481,
       "length": 28,
       "value": "\"enableBehavioralBiometrics\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 7,
       "value": "\"isDev\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1554,
       "length": 9,
       "value": "\"eventId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1588,
       "length": 14,
       "value": "\"credentialId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 13,
       "value": "\"environment\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1703,
       "length": 18,
       "value": "\"suspiciousSignal\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 12,
       "value": "\"deviceData\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1831,
       "length": 4,
       "value": "\"os\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1856,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1892,
       "length": 15,
       "value": "\"appIdentifier\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1930,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1965,
       "length": 11,
       "value": "\"osVersion\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 1998,
       "length": 11,
       "value": "\"modelName\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2028,
       "length": 8,
       "value": "\"initId\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/EventLog\/EventLogger.swift",
       "kind": "StringLiteral",
       "offset": 2060,
       "length": 13,
       "value": "\"submitCount\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 6886,
+      "offset": 7138,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "IntegerLiteral",
-      "offset": 6891,
+      "offset": 7143,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/Encryption.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/Encryption.swift",
       "kind": "Array",
-      "offset": 6957,
+      "offset": 7209,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 28,
       "value": "\"https:\/\/dii.dev.bureau.id\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 28,
       "value": "\"https:\/\/dii.stg.bureau.id\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 24,
       "value": "\"https:\/\/dii.bureau.id\/\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 54,
       "value": "\"wss:\/\/api-ws.overwatch.dev.bureau.id?credentialId=%@\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 54,
       "value": "\"wss:\/\/api-ws.overwatch.stg.bureau.id?credentialId=%@\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 50,
       "value": "\"wss:\/\/api-ws.overwatch.bureau.id?credentialId=%@\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 7,
-      "value": "\"3.0.2\""
+      "value": "\"3.1.0\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXuOQmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBrOUahomTsZPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeUE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1305,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/zOAqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTyQoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYulkdC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT4OKB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 1912,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUF0GUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 2524,
       "length": 578,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9wOBAQEFAAOCAQ8AMIIBCgKCAQEA3DHNjMcMZC2uBUJcn25a\noOe\/z0AqqbOP2od7ag4sNW\/MbvAD8wXu0QmnHIlhdYrdMurlZbtQqj23RhYqvw6\/\nqMI5+Crf2O\/nvz+QBr0UahowTszPo6Q3HTQyoBzJeP1ZuddkO\/T2JOcCbfRup+5T\ne33ThPqvaw224LKZceYurtlC4CyrePt8HODAJdqcFIQeuE7u4MaOyA52dH2M37ii\nDdRO9FB+t1ILNZsLz8TjXd2JhB2WUebO\/uoCUscSIKapD46AarfSNtDeGHSde5D5\noeNVY9NfwjxucISbgZn7amxqAElBNnRJzzqUT40KB+WLzyUFOGUpSneKHIE\/PRSz\newIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 3130,
       "length": 400,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ZWFRiVDWd7o++ufxGHzqYueDarqrAucC4NvFf9ReaTYTutOQfGWi6IrqSClnM13tVDOm0UtCsrbcbByg9fyOUDZSma1A2JZFbT8f6Yz\/+3rIVTX1XeH1qtZIGm6UG2vLUK00V+OHWX9UMVsrsx3C7njlR1g4JavjN3Xbr73WCwk+rPWCCXT1Ro01IxToEeTrZ5TrL2iZ2wyHgzqCITlI4bBEDbotPYZEn980JeZv5swfVnJ4+HhJfWj2LBA9e2uLgIRtsTIf7eu\/gcQMGdZ9IDsSBWQGOgSqjgihbnUp1gWvGeXR3lTDYUyTO4vtjG+X1qZ\/UTaVmUN6aJo0XLfHwIDAQAB\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 3560,
       "length": 400,
       "value": "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApfCytJDH\/Vz5v9cF+5adOHjCRy07qBIKLoEIvwNMDjIi\/tOzJI1EBRPPWvqZkwbeiQ6BZ2pkKIoi8\/0sfcUDV5CQ3kxigtT6lMV\/U6CwKUaF9228EC6hTQJa+xSs0+6zzFC1ekOWCAGk+WL2kU1aD5WGzYmKBVBL5Vi6wbzlB\/KzUjE+d3Q54AfQwnb752wvQ0OVh7h4tqQuIHzrju63GhhRtdzw2jb3sxSorWJHn8SqIuOkfLOw4vo0TuxCopSXjcteXs\/erhhDTNDgFFaTqA8ec\/D8TMD\/7flU5xlHHHQ27ndEKVL4I5dcak6tdhStWHVhiNFbMG3wuHNQZP\/4DQIDAQAB\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 3988,
       "length": 279,
       "value": "\"-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgeihrwu6Oh4ucFwCVtW9fuzAP\nDdJt1+8zOlxTqZY7AumJJjFSqbzJf0m76ZYuZfVNJpx8wiyv3LiUEAIiEQpm5P+k\nRYyBEEBXAG2w+xmY8dJy4y\/fDLIhVj3TNdCq\/Rz9tOAZN7hYCVEbBJtJLh3rqqGz\n+AvPdOBoJTfGQQVS3QIDAQAB\n-----END PUBLIC KEY-----\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 4330,
       "length": 33,
       "value": "\"v1\/deviceService\/deviceData\/ios\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 4399,
       "length": 7,
       "value": "\"v2\/pc\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 4445,
       "length": 39,
       "value": "\"v1\/deviceService\/behaviour\/subSession\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 4516,
       "length": 109,
       "value": "\"wss:\/\/k69rlbfuz2.execute-api.ap-south-1.amazonaws.com\/dev?credentialId=3e8449fb-d8a0-4e38-a643-ab4bb6d8d775\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 4669,
       "length": 85,
       "value": "\"https:\/\/97dab99acb22475b43a17c2b9816b39c@o1297842.ingest.sentry.io\/4506189612515328\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 5913,
       "length": 23,
       "value": "\"kcUniqueIdentifierKey\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 6026,
       "length": 11,
       "value": "\"kcAppGuid\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 6079,
       "length": 15,
       "value": "\"kcAppGuidHash\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 6142,
       "length": 12,
       "value": "\"isTampered\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6355,
+      "offset": 6199,
+      "length": 16,
+      "value": "\"proxyStoredPnh\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 6416,
       "length": 65,
       "value": "\"https:\/\/bfp.dev.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6473,
+      "offset": 6534,
       "length": 65,
       "value": "\"https:\/\/bfp.stg.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6592,
+      "offset": 6653,
       "length": 65,
       "value": "\"https:\/\/bfp.prd.bureau.id\/topics\/aws.msk.bureau.iosDeviceEvents\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6712,
+      "offset": 6773,
       "length": 102,
       "value": "\"M2U4NDQ5ZmItZDhhMC00ZTM4LWE2NDMtYWI0YmI2ZDhkNzc1OjEwYjYwZTQyLTA3MDAtNDNhMy04NzE5LWJhNGFiNmRlZGIxZA==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6841,
+      "offset": 6902,
       "length": 102,
       "value": "\"MzNiNTQ0N2ItZGU2My00MTZjLTgzYTMtYjdhNTk5ZTVmYjU1OjFhZGQwMjAxLWZiODEtNDJjOS1hMzNiLTcxN2Y1ZWVkNWVmNg==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6970,
+      "offset": 7031,
       "length": 102,
       "value": "\"ODA5MjVhMjktN2U0Yi00N2I4LWI0ZDMtN2YyZmMyZDY5ZTU3OmEzZjEyZWFkLWI0OWEtNDdkNi05Mzg4LTRiYzkzZWM3N2RhNQ==\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7208,
+      "offset": 7269,
       "length": 9,
       "value": "\"private\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 7434,
+      "length": 7,
+      "value": "\"1.1.2\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 7485,
+      "length": 7,
+      "value": "\"1.1.4\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",
       "kind": "BooleanLiteral",
       "offset": 486,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",
       "kind": "BooleanLiteral",
       "offset": 671,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/RiskAppDetector.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/RiskAppDetector.swift",
       "kind": "Dictionary",
       "offset": 261,
       "length": 1659,
       "value": "[(\"AltStore\", [\"altstore\"]), (\"Scarlet\", [\"scarlet\"]), (\"AppCake\", [\"appcake\", \"appcakejapp\"]), (\"TutuApp\", [\"tutuapp\"]), (\"Panda Helper\", [\"pandafree\", \"pandavip\", \"pandahelper\"]), (\"Checkra1n\", [\"checkra1n\"]), (\"Unc0ver\", [\"unc0ver\"]), (\"Palera1n\", [\"loader\", \"palera1n\"]), (\"undecimus\", [\"undecimus\"]), (\"sileo\", [\"sileo\"]), (\"zbra\", [\"zbra\"]), (\"filza\", [\"filza\"]), (\"Chimera\", [\"chimera\"]), (\"Electra\", [\"electra\"]), (\"Odyssey\", [\"odyssey\"]), (\"Taurine\", [\"taurine\"]), (\"UTM\", [\"UTM\"]), (\"TeamViewer\", [\"teamviewer\", \"tvcontrol\", \"tvopen\", \"tvsqcustomer1\"]), (\"AirDroid\", [\"sandstudio-airdroid\"]), (\"ZohoAssist\", [\"zohoassist\"]), (\"AnyDesk\", [\"anydesk\"]), (\"Splashtop\", [\"st-personal\"]), (\"Avica\", [\"com.googleusercontent.apps.946791103989-7ac0qp32qfbc226vo64d6cic49juljbi\"]), (\"Chrome Remote Desktop\", [\"chromeremotedesktop\"]), (\"RVNC Viewer\", [\"vnc\"]), (\"Screen Mirroring\", [\"screenmirroringz\"])]"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IdentifierHarvester.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IdentifierHarvester.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 18,
       "value": "\"vendorIdentifier\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 425,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 451,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 557,
+      "offset": 595,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/Hari\/bureau_git\/fingerprint-ios\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 634,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 704,
       "length": 5,
       "value": "false"
     }
