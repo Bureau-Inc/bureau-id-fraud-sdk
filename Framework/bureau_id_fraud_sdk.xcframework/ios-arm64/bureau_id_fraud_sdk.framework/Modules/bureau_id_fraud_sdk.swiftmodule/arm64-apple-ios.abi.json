@@ -874,21 +874,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?",
+                "printedName": "(any bureau_id_fraud_sdk.BureauFingerPrintDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PrismFingerPrintDelegate",
-                    "printedName": "any bureau_id_fraud_sdk.PrismFingerPrintDelegate",
-                    "usr": "s:19bureau_id_fraud_sdk24PrismFingerPrintDelegateP"
+                    "name": "BureauFingerPrintDelegate",
+                    "printedName": "any bureau_id_fraud_sdk.BureauFingerPrintDelegate",
+                    "usr": "s:19bureau_id_fraud_sdk25BureauFingerPrintDelegateP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvp",
-            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvp",
+            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvp",
+            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvp",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "HasInitialValue",
@@ -905,21 +905,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?",
+                    "printedName": "(any bureau_id_fraud_sdk.BureauFingerPrintDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PrismFingerPrintDelegate",
-                        "printedName": "any bureau_id_fraud_sdk.PrismFingerPrintDelegate",
-                        "usr": "s:19bureau_id_fraud_sdk24PrismFingerPrintDelegateP"
+                        "name": "BureauFingerPrintDelegate",
+                        "printedName": "any bureau_id_fraud_sdk.BureauFingerPrintDelegate",
+                        "usr": "s:19bureau_id_fraud_sdk25BureauFingerPrintDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvg",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvg",
+                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvg",
+                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvg",
                 "moduleName": "bureau_id_fraud_sdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -937,21 +937,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?",
+                    "printedName": "(any bureau_id_fraud_sdk.BureauFingerPrintDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PrismFingerPrintDelegate",
-                        "printedName": "any bureau_id_fraud_sdk.PrismFingerPrintDelegate",
-                        "usr": "s:19bureau_id_fraud_sdk24PrismFingerPrintDelegateP"
+                        "name": "BureauFingerPrintDelegate",
+                        "printedName": "any bureau_id_fraud_sdk.BureauFingerPrintDelegate",
+                        "usr": "s:19bureau_id_fraud_sdk25BureauFingerPrintDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvs",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvs",
+                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvs",
+                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvs",
                 "moduleName": "bureau_id_fraud_sdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -968,8 +968,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvM",
-                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA016PrismFingerPrintH0_pSgvM",
+                "usr": "s:19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvM",
+                "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC19fingerprintDelegateAA0e11FingerPrintH0_pSgvM",
                 "moduleName": "bureau_id_fraud_sdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1270,12 +1270,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?) -> ())?",
+                "printedName": "((Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?) -> ()",
+                    "printedName": "(Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1285,7 +1285,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?)",
+                        "printedName": "(Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1295,37 +1295,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "bureau_id_fraud_sdk.BureauError?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "BureauError",
-                                "printedName": "bureau_id_fraud_sdk.BureauError",
-                                "usr": "s:19bureau_id_fraud_sdk11BureauErrorO"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "bureau_id_fraud_sdk.Insights?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Insights",
-                                "printedName": "bureau_id_fraud_sdk.Insights",
-                                "usr": "s:19bureau_id_fraud_sdk8InsightsV"
-                              }
-                            ],
-                            "usr": "s:Sq"
+                            "name": "BureauSubmitResponse",
+                            "printedName": "bureau_id_fraud_sdk.BureauSubmitResponse",
+                            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV"
                           }
                         ]
                       }
@@ -1337,8 +1309,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC6submit12onCompletionyySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
-            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC6submit12onCompletionyySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
+            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC6submit12onCompletionyySb_AA0E14SubmitResponseVtcSg_tF",
+            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC6submit12onCompletionyySb_AA0E14SubmitResponseVtcSg_tF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "AccessControl"
@@ -1359,12 +1331,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?) -> ())?",
+                "printedName": "((Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?) -> ()",
+                    "printedName": "(Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1374,7 +1346,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.String, bureau_id_fraud_sdk.BureauError?, bureau_id_fraud_sdk.Insights?)",
+                        "printedName": "(Swift.Bool, bureau_id_fraud_sdk.BureauSubmitResponse)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1384,37 +1356,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "bureau_id_fraud_sdk.BureauError?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "BureauError",
-                                "printedName": "bureau_id_fraud_sdk.BureauError",
-                                "usr": "s:19bureau_id_fraud_sdk11BureauErrorO"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "bureau_id_fraud_sdk.Insights?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Insights",
-                                "printedName": "bureau_id_fraud_sdk.Insights",
-                                "usr": "s:19bureau_id_fraud_sdk8InsightsV"
-                              }
-                            ],
-                            "usr": "s:Sq"
+                            "name": "BureauSubmitResponse",
+                            "printedName": "bureau_id_fraud_sdk.BureauSubmitResponse",
+                            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV"
                           }
                         ]
                       }
@@ -1426,8 +1370,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
-            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_SSAA0E5ErrorOSgAA8InsightsVSgtcSg_tF",
+            "usr": "s:19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_AA0eH8ResponseVtcSg_tF",
+            "mangledName": "$s19bureau_id_fraud_sdk9BureauAPIC11asyncSubmit12onCompletionSSySb_AA0eH8ResponseVtcSg_tF",
             "moduleName": "bureau_id_fraud_sdk",
             "declAttributes": [
               "AccessControl"
@@ -2082,13 +2026,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PrismFingerPrintDelegate",
-        "printedName": "PrismFingerPrintDelegate",
+        "name": "BureauFingerPrintDelegate",
+        "printedName": "BureauFingerPrintDelegate",
         "children": [
           {
             "kind": "Function",
             "name": "onFinished",
-            "printedName": "onFinished(eventID:data:insights:)",
+            "printedName": "onFinished(result:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2097,74 +2041,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "bureau_id_fraud_sdk.Insights?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Insights",
-                    "printedName": "bureau_id_fraud_sdk.Insights",
-                    "usr": "s:19bureau_id_fraud_sdk8InsightsV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "BureauSubmitResponse",
+                "printedName": "bureau_id_fraud_sdk.BureauSubmitResponse",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19bureau_id_fraud_sdk24PrismFingerPrintDelegateP10onFinished7eventID4data8insightsySSSg_SDySSypGSgAA8InsightsVSgtF",
-            "mangledName": "$s19bureau_id_fraud_sdk24PrismFingerPrintDelegateP10onFinished7eventID4data8insightsySSSg_SDySSypGSgAA8InsightsVSgtF",
+            "usr": "s:19bureau_id_fraud_sdk25BureauFingerPrintDelegateP10onFinished6result_ySb_AA0E14SubmitResponseVtF",
+            "mangledName": "$s19bureau_id_fraud_sdk25BureauFingerPrintDelegateP10onFinished6result_ySb_AA0E14SubmitResponseVtF",
             "moduleName": "bureau_id_fraud_sdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : bureau_id_fraud_sdk.PrismFingerPrintDelegate>",
-            "sugared_genericSig": "<Self where Self : bureau_id_fraud_sdk.PrismFingerPrintDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : bureau_id_fraud_sdk.BureauFingerPrintDelegate>",
+            "sugared_genericSig": "<Self where Self : bureau_id_fraud_sdk.BureauFingerPrintDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:19bureau_id_fraud_sdk24PrismFingerPrintDelegateP",
-        "mangledName": "$s19bureau_id_fraud_sdk24PrismFingerPrintDelegateP",
+        "usr": "s:19bureau_id_fraud_sdk25BureauFingerPrintDelegateP",
+        "mangledName": "$s19bureau_id_fraud_sdk25BureauFingerPrintDelegateP",
         "moduleName": "bureau_id_fraud_sdk",
         "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
         "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
@@ -6400,6 +6301,321 @@
         "moduleName": "bureau_id_fraud_sdk"
       },
       {
+        "kind": "TypeDecl",
+        "name": "BureauSubmitResponse",
+        "printedName": "BureauSubmitResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventId",
+            "printedName": "eventId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV7eventIdSSvp",
+            "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV7eventIdSSvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV7eventIdSSvg",
+                "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV7eventIdSSvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "bureau_id_fraud_sdk.BureauError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BureauError",
+                    "printedName": "bureau_id_fraud_sdk.BureauError",
+                    "usr": "s:19bureau_id_fraud_sdk11BureauErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV5errorAA0E5ErrorOSgvp",
+            "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV5errorAA0E5ErrorOSgvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "bureau_id_fraud_sdk.BureauError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BureauError",
+                        "printedName": "bureau_id_fraud_sdk.BureauError",
+                        "usr": "s:19bureau_id_fraud_sdk11BureauErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV5errorAA0E5ErrorOSgvg",
+                "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV5errorAA0E5ErrorOSgvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "insights",
+            "printedName": "insights",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "bureau_id_fraud_sdk.Insights?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Insights",
+                    "printedName": "bureau_id_fraud_sdk.Insights",
+                    "usr": "s:19bureau_id_fraud_sdk8InsightsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV8insightsAA8InsightsVSgvp",
+            "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV8insightsAA8InsightsVSgvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "bureau_id_fraud_sdk.Insights?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Insights",
+                        "printedName": "bureau_id_fraud_sdk.Insights",
+                        "usr": "s:19bureau_id_fraud_sdk8InsightsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV8insightsAA8InsightsVSgvg",
+                "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV8insightsAA8InsightsVSgvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV6actionSSSgvp",
+            "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV6actionSSSgvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV6actionSSSgvg",
+                "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV6actionSSSgvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iv",
+            "printedName": "iv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV2ivSSSgvp",
+            "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV2ivSSSgvp",
+            "moduleName": "bureau_id_fraud_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV2ivSSSgvg",
+                "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV2ivSSSgvg",
+                "moduleName": "bureau_id_fraud_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19bureau_id_fraud_sdk20BureauSubmitResponseV",
+        "mangledName": "$s19bureau_id_fraud_sdk20BureauSubmitResponseV",
+        "moduleName": "bureau_id_fraud_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -9279,222 +9495,6 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "APIVersion",
-        "printedName": "APIVersion",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "v112",
-            "printedName": "v112",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(bureau_id_fraud_sdk.APIVersion.Type) -> bureau_id_fraud_sdk.APIVersion",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIVersion",
-                    "printedName": "bureau_id_fraud_sdk.APIVersion",
-                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "bureau_id_fraud_sdk.APIVersion.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIVersion",
-                        "printedName": "bureau_id_fraud_sdk.APIVersion",
-                        "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19bureau_id_fraud_sdk10APIVersionO4v112yA2CmF",
-            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO4v112yA2CmF",
-            "moduleName": "bureau_id_fraud_sdk"
-          },
-          {
-            "kind": "Var",
-            "name": "v114",
-            "printedName": "v114",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(bureau_id_fraud_sdk.APIVersion.Type) -> bureau_id_fraud_sdk.APIVersion",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIVersion",
-                    "printedName": "bureau_id_fraud_sdk.APIVersion",
-                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "bureau_id_fraud_sdk.APIVersion.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIVersion",
-                        "printedName": "bureau_id_fraud_sdk.APIVersion",
-                        "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19bureau_id_fraud_sdk10APIVersionO4v114yA2CmF",
-            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO4v114yA2CmF",
-            "moduleName": "bureau_id_fraud_sdk",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "bureau_id_fraud_sdk.APIVersion?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIVersion",
-                    "printedName": "bureau_id_fraud_sdk.APIVersion",
-                    "usr": "s:19bureau_id_fraud_sdk10APIVersionO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueACSgSS_tcfc",
-            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueACSgSS_tcfc",
-            "moduleName": "bureau_id_fraud_sdk",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueSSvp",
-            "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueSSvp",
-            "moduleName": "bureau_id_fraud_sdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19bureau_id_fraud_sdk10APIVersionO8rawValueSSvg",
-                "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO8rawValueSSvg",
-                "moduleName": "bureau_id_fraud_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:19bureau_id_fraud_sdk10APIVersionO",
-        "mangledName": "$s19bureau_id_fraud_sdk10APIVersionO",
-        "moduleName": "bureau_id_fraud_sdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
           }
         ]
       },
@@ -13797,77 +13797,77 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 721,
+      "offset": 695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 837,
+      "offset": 811,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "Dictionary",
-      "offset": 890,
+      "offset": 864,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "FloatLiteral",
-      "offset": 1186,
+      "offset": 1161,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1397,
+      "offset": 1372,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1514,
+      "offset": 1489,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1605,
       "length": 29,
       "value": "\"com.bureau.sdk.submit-state\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1698,
+      "offset": 1673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1793,
+      "offset": 1768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 36847,
+      "offset": 37955,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/BureauAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 37348,
+      "offset": 38456,
       "length": 1,
       "value": "5"
     },
@@ -14415,7 +14415,7 @@
       "kind": "StringLiteral",
       "offset": 663,
       "length": 7,
-      "value": "\"3.1.0\""
+      "value": "\"4.0.0\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
@@ -14588,16 +14588,30 @@
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7434,
+      "offset": 7427,
       "length": 7,
       "value": "\"1.1.2\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7485,
+      "offset": 7478,
       "length": 7,
       "value": "\"1.1.4\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 7564,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/AppConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 7593,
+      "length": 4,
+      "value": "\"iv\""
     },
     {
       "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/device-intelligence\/bureau-id-fraud-sdk\/FingerprintJS\/Harvesters\/IPHarvester.swift",

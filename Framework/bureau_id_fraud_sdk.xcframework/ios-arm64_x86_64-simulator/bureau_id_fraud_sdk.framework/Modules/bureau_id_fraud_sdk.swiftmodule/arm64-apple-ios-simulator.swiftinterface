@@ -59,9 +59,9 @@ extension bureau_id_fraud_sdk.DeviceInfoProvider : bureau_id_fraud_sdk.DeviceInf
   public func getDeviceInfo() async -> bureau_id_fraud_sdk.DeviceInfo
   public func getDeviceInfo(_ completion: @escaping (bureau_id_fraud_sdk.DeviceInfo) -> Swift.Void)
 }
-public typealias CompletionBlock = (_ result: Swift.Bool, _ eventID: Swift.String, _ error: bureau_id_fraud_sdk.BureauError?, _ insights: bureau_id_fraud_sdk.Insights?) -> Swift.Void
+public typealias CompletionBlock = (_ result: Swift.Bool, _ submitRespose: bureau_id_fraud_sdk.BureauSubmitResponse) -> Swift.Void
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class BureauAPI : ObjectiveC.NSObject {
-  public var fingerprintDelegate: (any bureau_id_fraud_sdk.PrismFingerPrintDelegate)?
+  public var fingerprintDelegate: (any bureau_id_fraud_sdk.BureauFingerPrintDelegate)?
   public var localSignalDelegate: (any bureau_id_fraud_sdk.LocalSignalDelegate)?
   @objc public static let shared: bureau_id_fraud_sdk.BureauAPI
   public func configure(config: bureau_id_fraud_sdk.BureauConfig)
@@ -93,10 +93,8 @@ public enum Environment {
     get
   }
 }
-public protocol PrismFingerPrintDelegate : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  func onFinished(eventID: Swift.String?, data: [Swift.String : Any]?, insights: bureau_id_fraud_sdk.Insights?)
-  #endif
+public protocol BureauFingerPrintDelegate : ObjectiveC.NSObject {
+  func onFinished(result: Swift.Bool, _ submitRespose: bureau_id_fraud_sdk.BureauSubmitResponse)
 }
 public protocol LocalSignalDelegate : AnyObject {
   func deviceLocation(isMocked: Swift.Bool)
@@ -218,6 +216,13 @@ public struct IPSecurity : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct BureauSubmitResponse {
+  public let eventId: Swift.String
+  public let error: bureau_id_fraud_sdk.BureauError?
+  public let insights: bureau_id_fraud_sdk.Insights?
+  public let action: Swift.String?
+  public let iv: Swift.String?
+}
 @_hasMissingDesignatedInitializers public class DebugLogger {
   public static let shared: bureau_id_fraud_sdk.DebugLogger
   public var isLoggingEnabled: Swift.Bool
@@ -313,17 +318,6 @@ public enum GetPayloadError {
     get
   }
 }
-public enum APIVersion : Swift.String {
-  case v112
-  case v114
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public struct FingerprintTree {
   public let info: bureau_id_fraud_sdk.DeviceInfoItem
   public let children: [bureau_id_fraud_sdk.FingerprintTree]?
@@ -403,8 +397,5 @@ extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Equatable {}
 extension bureau_id_fraud_sdk.LocalRiskSignalFrequesncy : Swift.Hashable {}
 extension bureau_id_fraud_sdk.GetPayloadError : Swift.Equatable {}
 extension bureau_id_fraud_sdk.GetPayloadError : Swift.Hashable {}
-extension bureau_id_fraud_sdk.APIVersion : Swift.Equatable {}
-extension bureau_id_fraud_sdk.APIVersion : Swift.Hashable {}
-extension bureau_id_fraud_sdk.APIVersion : Swift.RawRepresentable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Equatable {}
 extension bureau_id_fraud_sdk.FailedCheck : Swift.Hashable {}
